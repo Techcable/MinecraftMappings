@@ -6,7 +6,7 @@ URL=http://ci.md-5.net/job/SpecialSource/lastSuccessfulBuild/artifact/target/Spe
 if [ ! -e $JAR_FILE ];
 then
 echo attempting to download $JAR_FILE;
-curl $URL > $JAR_FILE;
+wget $URL -O $JAR_FILE;
 fi;
 
 if [ ! -e $JAR_FILE ];
