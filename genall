@@ -15,7 +15,7 @@ VANILLA_URL=http://s3.amazonaws.com/Minecraft.Download/versions/$VERSION/minecra
 MC_DEV_JAR=mcdev-$VERSION.jar
 MV_DEV_URL=http://repo.bukkit.org/content/repositories/releases/org/bukkit/minecraft-server/$VERSION/minecraft-server-$VERSION.jar
 
-wget -O $VANILLA_JAR $VANILLA_URL
+curl $VANILLA_URL > $VANILLA_JAR
 
 if [ ! -e $VANILLA_JAR ];
 then
@@ -23,7 +23,7 @@ echo unable to download vanilla jar;
 exit 1;
 fi;
 
-wget -O $MC_DEV_JAR $MC_DEV_URL
+curl $MC_DEV_URL > $MC_DEV_JAR
 
 if [ ! -e $MC_DEV_JAR ];
 then
