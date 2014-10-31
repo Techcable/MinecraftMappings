@@ -24,7 +24,7 @@ echo Generating $OUT_DIR/obf2cb.srg
 echo Generating $OUT_DIR/obf2mcp.srg
 ./specialsource --first-jar $SERVER_JAR --second-jar $MCP_JAR --srg-out $OUT_DIR/obf2mcp.srg
 echo Generating $OUT_DIR/cb2mcp.srg
-./specialsource --first-jar $MCP_DEV_JAR --second-jar $MCP_JAR --srg-out $OUT_DIR/cb2mcp.srg
+./specialsource --first-jar $MC_DEV_JAR --second-jar $MCP_JAR --srg-out $OUT_DIR/cb2mcp.srg
 # Create Reverse Mappings
 echo Generating $OUT_DIR/cb2obf.srg
 ./reverse-srg $OUT_DIR/obf2cb.srg $OUT_DIR/cb2obf.srg
