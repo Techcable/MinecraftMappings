@@ -1,0 +1,48 @@
+#!/bin/bash
+
+
+
+if [[ $# < 1 ]];
+then
+echo Usage: fetchFml {minecraftVersion};
+exit 1;
+fi;
+
+FML_VERSION=$(./fetchfml-version $1);
+if [[ $? != 0 ]];
+then
+echo unnable to retreive fml version;
+exit 1;
+fi;
+
+FML_URL=https://github.com/MinecraftForge/FML/archive/v$FML_VERSION.zip
+OUT_DIR=fml-conf-$FML_VERSION
+
+wget -O fml.zip $FML_URL
+
+if [[ $? != 0 ]];
+then
+echo wget errored
+exit 1;
+fi;
+
+if [ -e $OUT_DIR ];
+then
+exit 0;
+fi;
+ 
+set -e
+unzip fml.zip FML-$FML_VERSION/conf/*
+set e
+
+mv FML-$FML_VERSION/* $OUT_DIR
+
+rmdir FML-$FML_VERSION
+
+if [[ $? != 0 ]];
+then
+echo Unzip Errored
+exit 1;
+fi;
+
+rm fml.zip

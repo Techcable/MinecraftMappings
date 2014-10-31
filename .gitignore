@@ -1,1 +1,3 @@
 *.jar
+*.class
+fml-conf*
