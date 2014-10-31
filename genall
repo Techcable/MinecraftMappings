@@ -1,0 +1,34 @@
+#!/bin/bash
+
+if [[ $# != 2 ]];
+then
+echo Usage: genall {minecraft-version} {mcp-conf-dir}
+exit 1;
+fi;
+
+VERSION=$1
+MCP_CONF=$2
+
+VANILLA_JAR=minecraft-server-$VERSION.jar
+VANILLA_URL=http://s3.amazonaws.com/Minecraft.Download/versions/$VERSION/minecraft_server.$VERSION.jar
+
+MC_DEV_JAR=mcdev-$VERSION.jar
+MV_DEV_URL=http://repo.bukkit.org/content/repositories/releases/org/bukkit/minecraft-server/$VERSION/minecraft-server-$VERSION.jar
+
+wget -O $VANILLA_JAR $VANILLA_URL
+
+if [ ! -e $VANILLA_JAR ];
+then
+echo unable to download vanilla jar;
+exit 1;
+fi;
+
+wget -O $MC_DEV_JAR $MC_DEV_URL
+
+if [ ! -e $MC_DEV_JAR ];
+then
+echo unable to download mcdev jar;
+exit 1;
+fi;
+
+./genmappings $VERSION $VANILLA_JAR $MC_DEV_JAR $MCP_CONF

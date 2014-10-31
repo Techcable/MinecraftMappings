@@ -1,0 +1,30 @@
+#!/bin/bash
+
+if [[ $# != 4 ]];
+then
+echo usage: genmappings {minecraftversion} {server-jar} {craftbukkit-jar} {mcp config directory}
+exit 1;
+fi;
+
+MINECRAFT_VERSION=$1
+
+mkdir $MINECRAFT_VERSION
+
+SERVER_JAR=$2
+MC_DEV_JAR=$3
+MCP_CONF=$4
+MCP_JAR=mcp-$MINECRAFT_VERSION.jar
+OUT_DIR=$MINECRAFT_VERSION
+
+# Generate The Mappings
+./specialsource --in-jar $SERVER_JAR --out-jar $MCP_JAR --srg-in $MCP_CONF
+./specialsource --first-jar $SERVER_JAR --second-jar $MC_DEV_JAR --srg-out $OUT_DIR/obf2cb.srg
+./specialsource --first-jar $SERVER_JAR --second-jar $MCP_JAR --srg-out $OUT_DIR/obf2mcp.srg
+./specialsource --first-jar $MCP_DEV_JAR --second-jar $MCP_JAR --srg-out $OUT_DIR/cb2mcp.srg
+# Create Reverse Mappings
+./reverse-srg $OUT_DIR/obf2cb.srg $OUT_DIR/cb2obf.srg
+./reverse-srg $OUT_DIR/obf2mcp.srg  $OUT_DIR/mcp2obf.srg
+./reverse-srg $OUT_DIR/cb2mcp.srg $OUT_DIR/mcp2cb.srg
+
+#Cleanup
+rm $MCP_JAR

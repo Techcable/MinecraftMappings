@@ -1,0 +1,17 @@
+#!/bin/bash
+
+SCRIPT=python/reverse-srg.py
+
+if [[ $# != 2 ]];
+then
+echo "Usage: {in-srg} {out-srg}";
+exit 1;
+fi;
+
+if [ -e $2 ];
+then
+echo $2 already exists;
+exit 1;
+fi;
+
+cat $1 | python $SCRIPT > $2

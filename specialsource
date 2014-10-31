@@ -1,0 +1,19 @@
+#!/bin/bash
+
+JAR_FILE=SpecialSource.jar
+URL=http://ci.md-5.net/job/SpecialSource/lastSuccessfulBuild/artifact/target/SpecialSource-1.7-SNAPSHOT-shaded.jar
+
+if [ ! -e $JAR_FILE ];
+then
+echo attempting to download $JAR_FILE;
+wget -O $JAR_FILE $URL;
+fi;
+
+if [ ! -e $JAR_FILE ];
+then
+echo $JAR_FILE does not exist;
+echo aborting;
+exit 1;
+fi;
+
+java -jar $JAR_FILE $@
