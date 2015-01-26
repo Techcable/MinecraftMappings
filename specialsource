@@ -1,7 +1,7 @@
 #!/bin/bash
 
 JAR_FILE=SpecialSource.jar
-URL=http://ci.md-5.net/job/SpecialSource/lastSuccessfulBuild/artifact/target/SpecialSource-1.7-SNAPSHOT-shaded.jar
+URL=http://ci.md-5.net/job/SpecialSource/lastSuccessfulBuild/artifact/target/SpecialSource-1.7.3-SNAPSHOT-shaded.jar
 
 if [ ! -e $JAR_FILE ];
 then
