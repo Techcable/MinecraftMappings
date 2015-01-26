@@ -1,25 +1,13 @@
 #!/bin/bash
 
-if [[ $# < 1 ]];
+if [[ $# < 2 ]];
 then
-echo Usage: genall {minecraft-version} [mcp-conf-dir]
+echo Usage: genall {minecraft-version} {mcp-conf-dir}
 exit 1;
 fi;
 
 VERSION=$1
-MCP_CONF=""
-if [[ $# == 1 ]];
-then
-./fetchfml $VERSION
-if [[ $? != 0 ]];
-then
-echo error fetchfml exited with status code $?
-exit 1;
-fi;
-MCP_CONF=fml-conf-$(./fetchfml-version $VERSION);
-else
 MCP_CONF=$2
-fi;
 
 VANILLA_JAR=minecraft-server-$VERSION.jar
 VANILLA_URL=http://s3.amazonaws.com/Minecraft.Download/versions/$VERSION/minecraft_server.$VERSION.jar
