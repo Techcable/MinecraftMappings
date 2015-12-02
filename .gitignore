@@ -1,3 +1,8 @@
 *.jar
-*.class
-fml-conf*
+
+# IntelliJ
+.idea
+*.iml
+
+# Python
+__pycache__
