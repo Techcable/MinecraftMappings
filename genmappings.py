@@ -78,7 +78,9 @@ def write_mapping(mappings: AbstractMappings, file_name: str):
     mappings = strip_duplicates(mappings)
     file_name = path.join(out_folder, file_name)
     with open(file_name, "wt+") as file:
-        for line in serialize_srg(mappings):
+        lines = list(serialize_srg(mappings))
+        lines.sort()
+        for line in lines:
             file.write(line)
             file.write('\n')
 
