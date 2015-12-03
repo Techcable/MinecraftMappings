@@ -2,8 +2,8 @@ MinecraftMappings
 =================
 Automatically generated minecraft mappings, using [SrgLib](https://github.com/ProjectTestificate/SrgLib)
 
-## Commands used to generate:
-- 1.8: python3 genmappings.py 1.8 snapshot_nodoc_20151122
+## MCP Mappings Version:
+- 1.8: snapshot_nodoc_20141130
 
 ## License:
 - The scripts are my property and are released under the MIT (Expat) license
