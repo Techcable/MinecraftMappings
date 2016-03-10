@@ -5,6 +5,7 @@ Automatically generated minecraft mappings, using [SrgLib](https://github.com/Pr
 ## MCP Mappings Version:
 - 1.8: snapshot_nodoc_20141130
 - 1.8.8: snapshot_nodoc_20151216
+- 1.9: snapshot_nodoc_20160310
 
 ## License:
 - The scripts are my property and are released under the MIT (Expat) license
