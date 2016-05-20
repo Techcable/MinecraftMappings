@@ -94,17 +94,17 @@ CL: aco$1 net/minecraft/item/ItemCompass$1
 CL: acp net/minecraft/item/ItemMapBase
 CL: acq net/minecraft/creativetab/CreativeTabs
 CL: acq$1 net/minecraft/creativetab/CreativeTabs$1
-CL: acq$10 net/minecraft/creativetab/CreativeTabs$10
-CL: acq$11 net/minecraft/creativetab/CreativeTabs$11
-CL: acq$12 net/minecraft/creativetab/CreativeTabs$12
-CL: acq$2 net/minecraft/creativetab/CreativeTabs$2
-CL: acq$3 net/minecraft/creativetab/CreativeTabs$3
-CL: acq$4 net/minecraft/creativetab/CreativeTabs$4
-CL: acq$5 net/minecraft/creativetab/CreativeTabs$5
-CL: acq$6 net/minecraft/creativetab/CreativeTabs$6
-CL: acq$7 net/minecraft/creativetab/CreativeTabs$7
-CL: acq$8 net/minecraft/creativetab/CreativeTabs$8
-CL: acq$9 net/minecraft/creativetab/CreativeTabs$9
+CL: acq$10 net/minecraft/creativetab/CreativeTabs$7
+CL: acq$11 net/minecraft/creativetab/CreativeTabs$8
+CL: acq$12 net/minecraft/creativetab/CreativeTabs$9
+CL: acq$2 net/minecraft/creativetab/CreativeTabs$10
+CL: acq$3 net/minecraft/creativetab/CreativeTabs$11
+CL: acq$4 net/minecraft/creativetab/CreativeTabs$12
+CL: acq$5 net/minecraft/creativetab/CreativeTabs$2
+CL: acq$6 net/minecraft/creativetab/CreativeTabs$3
+CL: acq$7 net/minecraft/creativetab/CreativeTabs$4
+CL: acq$8 net/minecraft/creativetab/CreativeTabs$5
+CL: acq$9 net/minecraft/creativetab/CreativeTabs$6
 CL: acr net/minecraft/item/ItemTool
 CL: acs net/minecraft/item/ItemDoor
 CL: act net/minecraft/item/EnumDyeColor
@@ -136,26 +136,26 @@ CL: adn net/minecraft/item/ItemHoe
 CL: adn$1 net/minecraft/item/ItemHoe$1
 CL: ado net/minecraft/item/Item
 CL: ado$1 net/minecraft/item/Item$1
-CL: ado$10 net/minecraft/item/Item$10
-CL: ado$11 net/minecraft/item/Item$11
-CL: ado$12 net/minecraft/item/Item$12
-CL: ado$13 net/minecraft/item/Item$13
-CL: ado$14 net/minecraft/item/Item$14
-CL: ado$15 net/minecraft/item/Item$15
-CL: ado$16 net/minecraft/item/Item$16
-CL: ado$17 net/minecraft/item/Item$17
-CL: ado$18 net/minecraft/item/Item$18
-CL: ado$19 net/minecraft/item/Item$19
-CL: ado$2 net/minecraft/item/Item$2
-CL: ado$20 net/minecraft/item/Item$20
-CL: ado$21 net/minecraft/item/Item$21
-CL: ado$3 net/minecraft/item/Item$3
-CL: ado$4 net/minecraft/item/Item$4
-CL: ado$5 net/minecraft/item/Item$5
-CL: ado$6 net/minecraft/item/Item$6
-CL: ado$7 net/minecraft/item/Item$7
-CL: ado$8 net/minecraft/item/Item$8
-CL: ado$9 net/minecraft/item/Item$9
+CL: ado$10 net/minecraft/item/Item$18
+CL: ado$11 net/minecraft/item/Item$19
+CL: ado$12 net/minecraft/item/Item$2
+CL: ado$13 net/minecraft/item/Item$20
+CL: ado$14 net/minecraft/item/Item$21
+CL: ado$15 net/minecraft/item/Item$3
+CL: ado$16 net/minecraft/item/Item$4
+CL: ado$17 net/minecraft/item/Item$5
+CL: ado$18 net/minecraft/item/Item$6
+CL: ado$19 net/minecraft/item/Item$7
+CL: ado$2 net/minecraft/item/Item$10
+CL: ado$20 net/minecraft/item/Item$8
+CL: ado$21 net/minecraft/item/Item$9
+CL: ado$3 net/minecraft/item/Item$11
+CL: ado$4 net/minecraft/item/Item$12
+CL: ado$5 net/minecraft/item/Item$13
+CL: ado$6 net/minecraft/item/Item$14
+CL: ado$7 net/minecraft/item/Item$15
+CL: ado$8 net/minecraft/item/Item$16
+CL: ado$9 net/minecraft/item/Item$17
 CL: ado$a net/minecraft/item/Item$ToolMaterial
 CL: adp net/minecraft/util/CooldownTracker
 CL: adp$1 net/minecraft/util/CooldownTracker$1
@@ -1124,22 +1124,22 @@ CL: bcd net/minecraft/client/renderer/RenderHelper
 CL: bce net/minecraft/client/renderer/GLAllocation
 CL: bcf net/minecraft/client/Minecraft
 CL: bcf$1 net/minecraft/client/Minecraft$1
-CL: bcf$10 net/minecraft/client/Minecraft$10
-CL: bcf$11 net/minecraft/client/Minecraft$11
-CL: bcf$12 net/minecraft/client/Minecraft$12
-CL: bcf$13 net/minecraft/client/Minecraft$13
-CL: bcf$14 net/minecraft/client/Minecraft$14
-CL: bcf$15 net/minecraft/client/Minecraft$15
-CL: bcf$16 net/minecraft/client/Minecraft$16
-CL: bcf$17 net/minecraft/client/Minecraft$17
-CL: bcf$2 net/minecraft/client/Minecraft$2
-CL: bcf$3 net/minecraft/client/Minecraft$3
-CL: bcf$4 net/minecraft/client/Minecraft$4
-CL: bcf$5 net/minecraft/client/Minecraft$5
-CL: bcf$6 net/minecraft/client/Minecraft$6
-CL: bcf$7 net/minecraft/client/Minecraft$7
-CL: bcf$8 net/minecraft/client/Minecraft$8
-CL: bcf$9 net/minecraft/client/Minecraft$9
+CL: bcf$10 net/minecraft/client/Minecraft$2
+CL: bcf$11 net/minecraft/client/Minecraft$3
+CL: bcf$12 net/minecraft/client/Minecraft$4
+CL: bcf$13 net/minecraft/client/Minecraft$5
+CL: bcf$14 net/minecraft/client/Minecraft$6
+CL: bcf$15 net/minecraft/client/Minecraft$7
+CL: bcf$16 net/minecraft/client/Minecraft$8
+CL: bcf$17 net/minecraft/client/Minecraft$9
+CL: bcf$2 net/minecraft/client/Minecraft$10
+CL: bcf$3 net/minecraft/client/Minecraft$11
+CL: bcf$4 net/minecraft/client/Minecraft$12
+CL: bcf$5 net/minecraft/client/Minecraft$13
+CL: bcf$6 net/minecraft/client/Minecraft$14
+CL: bcf$7 net/minecraft/client/Minecraft$15
+CL: bcf$8 net/minecraft/client/Minecraft$16
+CL: bcf$9 net/minecraft/client/Minecraft$17
 CL: bcg net/minecraft/util/MouseHelper
 CL: bch net/minecraft/client/settings/GameSettings
 CL: bch$1 net/minecraft/client/settings/GameSettings$1
@@ -1154,17 +1154,17 @@ CL: bcm$a net/minecraft/util/Session$Type
 CL: bcn net/minecraft/client/renderer/color/IBlockColor
 CL: bco net/minecraft/client/renderer/color/BlockColors
 CL: bco$1 net/minecraft/client/renderer/color/BlockColors$1
-CL: bco$10 net/minecraft/client/renderer/color/BlockColors$10
-CL: bco$11 net/minecraft/client/renderer/color/BlockColors$11
-CL: bco$12 net/minecraft/client/renderer/color/BlockColors$12
-CL: bco$2 net/minecraft/client/renderer/color/BlockColors$2
-CL: bco$3 net/minecraft/client/renderer/color/BlockColors$3
-CL: bco$4 net/minecraft/client/renderer/color/BlockColors$4
-CL: bco$5 net/minecraft/client/renderer/color/BlockColors$5
-CL: bco$6 net/minecraft/client/renderer/color/BlockColors$6
-CL: bco$7 net/minecraft/client/renderer/color/BlockColors$7
-CL: bco$8 net/minecraft/client/renderer/color/BlockColors$8
-CL: bco$9 net/minecraft/client/renderer/color/BlockColors$9
+CL: bco$10 net/minecraft/client/renderer/color/BlockColors$7
+CL: bco$11 net/minecraft/client/renderer/color/BlockColors$8
+CL: bco$12 net/minecraft/client/renderer/color/BlockColors$9
+CL: bco$2 net/minecraft/client/renderer/color/BlockColors$10
+CL: bco$3 net/minecraft/client/renderer/color/BlockColors$11
+CL: bco$4 net/minecraft/client/renderer/color/BlockColors$12
+CL: bco$5 net/minecraft/client/renderer/color/BlockColors$2
+CL: bco$6 net/minecraft/client/renderer/color/BlockColors$3
+CL: bco$7 net/minecraft/client/renderer/color/BlockColors$4
+CL: bco$8 net/minecraft/client/renderer/color/BlockColors$5
+CL: bco$9 net/minecraft/client/renderer/color/BlockColors$6
 CL: bcq net/minecraft/client/renderer/color/IItemColor
 CL: bcr net/minecraft/client/renderer/color/ItemColors
 CL: bcr$1 net/minecraft/client/renderer/color/ItemColors$1
@@ -2316,43 +2316,43 @@ CL: ke net/minecraft/network/datasync/DataParameter
 CL: kf net/minecraft/network/datasync/DataSerializer
 CL: kg net/minecraft/network/datasync/DataSerializers
 CL: kg$1 net/minecraft/network/datasync/DataSerializers$1
-CL: kg$10 net/minecraft/network/datasync/DataSerializers$10
-CL: kg$11 net/minecraft/network/datasync/DataSerializers$11
-CL: kg$12 net/minecraft/network/datasync/DataSerializers$12
-CL: kg$13 net/minecraft/network/datasync/DataSerializers$13
-CL: kg$2 net/minecraft/network/datasync/DataSerializers$2
-CL: kg$3 net/minecraft/network/datasync/DataSerializers$3
-CL: kg$4 net/minecraft/network/datasync/DataSerializers$4
-CL: kg$5 net/minecraft/network/datasync/DataSerializers$5
-CL: kg$6 net/minecraft/network/datasync/DataSerializers$6
-CL: kg$7 net/minecraft/network/datasync/DataSerializers$7
-CL: kg$8 net/minecraft/network/datasync/DataSerializers$8
-CL: kg$9 net/minecraft/network/datasync/DataSerializers$9
+CL: kg$10 net/minecraft/network/datasync/DataSerializers$6
+CL: kg$11 net/minecraft/network/datasync/DataSerializers$7
+CL: kg$12 net/minecraft/network/datasync/DataSerializers$8
+CL: kg$13 net/minecraft/network/datasync/DataSerializers$9
+CL: kg$2 net/minecraft/network/datasync/DataSerializers$10
+CL: kg$3 net/minecraft/network/datasync/DataSerializers$11
+CL: kg$4 net/minecraft/network/datasync/DataSerializers$12
+CL: kg$5 net/minecraft/network/datasync/DataSerializers$13
+CL: kg$6 net/minecraft/network/datasync/DataSerializers$2
+CL: kg$7 net/minecraft/network/datasync/DataSerializers$3
+CL: kg$8 net/minecraft/network/datasync/DataSerializers$4
+CL: kg$9 net/minecraft/network/datasync/DataSerializers$5
 CL: kh net/minecraft/network/datasync/EntityDataManager
 CL: kh$a net/minecraft/network/datasync/EntityDataManager$DataEntry
 CL: kk net/minecraft/util/ResourceLocation
 CL: km net/minecraft/dispenser/BehaviorProjectileDispense
 CL: kn net/minecraft/init/Bootstrap
 CL: kn$1 net/minecraft/init/Bootstrap$1
-CL: kn$10 net/minecraft/init/Bootstrap$10
-CL: kn$11 net/minecraft/init/Bootstrap$11
-CL: kn$12 net/minecraft/init/Bootstrap$12
-CL: kn$13 net/minecraft/init/Bootstrap$13
-CL: kn$14 net/minecraft/init/Bootstrap$14
-CL: kn$15 net/minecraft/init/Bootstrap$15
-CL: kn$16 net/minecraft/init/Bootstrap$16
-CL: kn$16$1 net/minecraft/init/Bootstrap$16$1
-CL: kn$17 net/minecraft/init/Bootstrap$17
-CL: kn$17$1 net/minecraft/init/Bootstrap$17$1
-CL: kn$18 net/minecraft/init/Bootstrap$18
-CL: kn$2 net/minecraft/init/Bootstrap$2
-CL: kn$3 net/minecraft/init/Bootstrap$3
-CL: kn$4 net/minecraft/init/Bootstrap$4
-CL: kn$5 net/minecraft/init/Bootstrap$5
-CL: kn$6 net/minecraft/init/Bootstrap$6
-CL: kn$7 net/minecraft/init/Bootstrap$7
-CL: kn$8 net/minecraft/init/Bootstrap$8
-CL: kn$9 net/minecraft/init/Bootstrap$9
+CL: kn$10 net/minecraft/init/Bootstrap$18
+CL: kn$11 net/minecraft/init/Bootstrap$2
+CL: kn$12 net/minecraft/init/Bootstrap$3
+CL: kn$13 net/minecraft/init/Bootstrap$4
+CL: kn$14 net/minecraft/init/Bootstrap$5
+CL: kn$15 net/minecraft/init/Bootstrap$6
+CL: kn$16 net/minecraft/init/Bootstrap$7
+CL: kn$16$1 net/minecraft/init/Bootstrap$7$1
+CL: kn$17 net/minecraft/init/Bootstrap$8
+CL: kn$17$1 net/minecraft/init/Bootstrap$8$1
+CL: kn$18 net/minecraft/init/Bootstrap$9
+CL: kn$2 net/minecraft/init/Bootstrap$10
+CL: kn$3 net/minecraft/init/Bootstrap$11
+CL: kn$4 net/minecraft/init/Bootstrap$12
+CL: kn$5 net/minecraft/init/Bootstrap$13
+CL: kn$6 net/minecraft/init/Bootstrap$14
+CL: kn$7 net/minecraft/init/Bootstrap$15
+CL: kn$8 net/minecraft/init/Bootstrap$16
+CL: kn$9 net/minecraft/init/Bootstrap$17
 CL: kn$a net/minecraft/init/Bootstrap$BehaviorDispenseBoat
 CL: ko net/minecraft/client/util/JsonException
 CL: ko$1 net/minecraft/client/util/JsonException$1
@@ -2493,18 +2493,18 @@ CL: ny net/minecraft/util/ClassInheritanceMultiMap
 CL: ny$1 net/minecraft/util/ClassInheritanceMultiMap$1
 CL: o net/minecraft/command/EntitySelector
 CL: o$1 net/minecraft/command/EntitySelector$1
-CL: o$10 net/minecraft/command/EntitySelector$10
-CL: o$11 net/minecraft/command/EntitySelector$11
-CL: o$12 net/minecraft/command/EntitySelector$12
-CL: o$13 net/minecraft/command/EntitySelector$13
-CL: o$2 net/minecraft/command/EntitySelector$2
-CL: o$3 net/minecraft/command/EntitySelector$3
-CL: o$4 net/minecraft/command/EntitySelector$4
-CL: o$5 net/minecraft/command/EntitySelector$5
-CL: o$6 net/minecraft/command/EntitySelector$6
-CL: o$7 net/minecraft/command/EntitySelector$7
-CL: o$8 net/minecraft/command/EntitySelector$8
-CL: o$9 net/minecraft/command/EntitySelector$9
+CL: o$10 net/minecraft/command/EntitySelector$6
+CL: o$11 net/minecraft/command/EntitySelector$7
+CL: o$12 net/minecraft/command/EntitySelector$8
+CL: o$13 net/minecraft/command/EntitySelector$9
+CL: o$2 net/minecraft/command/EntitySelector$10
+CL: o$3 net/minecraft/command/EntitySelector$11
+CL: o$4 net/minecraft/command/EntitySelector$12
+CL: o$5 net/minecraft/command/EntitySelector$13
+CL: o$6 net/minecraft/command/EntitySelector$2
+CL: o$7 net/minecraft/command/EntitySelector$3
+CL: o$8 net/minecraft/command/EntitySelector$4
+CL: o$9 net/minecraft/command/EntitySelector$5
 CL: oa net/minecraft/util/IntIdentityHashBiMap
 CL: ob net/minecraft/util/CryptManager
 CL: oc net/minecraft/util/FrameTimer
@@ -6701,23 +6701,23 @@ FD: bcd/a net/minecraft/client/renderer/RenderHelper/field_74522_a
 FD: bcd/b net/minecraft/client/renderer/RenderHelper/field_82884_b
 FD: bcd/c net/minecraft/client/renderer/RenderHelper/field_82885_c
 FD: bcf$1/a net/minecraft/client/Minecraft$1/field_74532_a
-FD: bcf$10/a net/minecraft/client/Minecraft$10/field_74536_a
-FD: bcf$11/a net/minecraft/client/Minecraft$11/field_90055_a
-FD: bcf$12/a net/minecraft/client/Minecraft$12/field_90053_a
-FD: bcf$13/a net/minecraft/client/Minecraft$13/field_74421_a
-FD: bcf$14/a net/minecraft/client/Minecraft$14/field_74503_a
-FD: bcf$15/a net/minecraft/client/Minecraft$15/field_79002_a
-FD: bcf$16/a net/minecraft/client/Minecraft$16/field_74500_a
-FD: bcf$17/a net/minecraft/client/Minecraft$17/field_82887_a
-FD: bcf$2/a net/minecraft/client/Minecraft$2/field_90051_a
-FD: bcf$3/a net/minecraft/client/Minecraft$3/field_90046_a
-FD: bcf$4/a net/minecraft/client/Minecraft$4/field_90048_a
-FD: bcf$5/a net/minecraft/client/Minecraft$5/field_142056_a
-FD: bcf$6/a net/minecraft/client/Minecraft$6/field_151425_a
-FD: bcf$7/a net/minecraft/client/Minecraft$7/field_152389_a
-FD: bcf$8/a net/minecraft/client/Minecraft$8/field_152128_a
-FD: bcf$9/a net/minecraft/client/Minecraft$9/field_186705_a
-FD: bcf$9/b net/minecraft/client/Minecraft$9/field_186706_b
+FD: bcf$10/a net/minecraft/client/Minecraft$2/field_74536_a
+FD: bcf$11/a net/minecraft/client/Minecraft$3/field_90055_a
+FD: bcf$12/a net/minecraft/client/Minecraft$4/field_90053_a
+FD: bcf$13/a net/minecraft/client/Minecraft$5/field_74421_a
+FD: bcf$14/a net/minecraft/client/Minecraft$6/field_74503_a
+FD: bcf$15/a net/minecraft/client/Minecraft$7/field_79002_a
+FD: bcf$16/a net/minecraft/client/Minecraft$8/field_74500_a
+FD: bcf$17/a net/minecraft/client/Minecraft$9/field_82887_a
+FD: bcf$2/a net/minecraft/client/Minecraft$10/field_90051_a
+FD: bcf$3/a net/minecraft/client/Minecraft$11/field_90046_a
+FD: bcf$4/a net/minecraft/client/Minecraft$12/field_90048_a
+FD: bcf$5/a net/minecraft/client/Minecraft$13/field_142056_a
+FD: bcf$6/a net/minecraft/client/Minecraft$14/field_151425_a
+FD: bcf$7/a net/minecraft/client/Minecraft$15/field_152389_a
+FD: bcf$8/a net/minecraft/client/Minecraft$16/field_152128_a
+FD: bcf$9/a net/minecraft/client/Minecraft$17/field_186705_a
+FD: bcf$9/b net/minecraft/client/Minecraft$17/field_186706_b
 FD: bcf/A net/minecraft/client/Minecraft/field_181543_z
 FD: bcf/B net/minecraft/client/Minecraft/field_71424_I
 FD: bcf/C net/minecraft/client/Minecraft/field_71425_J
@@ -6988,7 +6988,7 @@ FD: bcm/a net/minecraft/util/Session/field_74286_b
 FD: bcm/b net/minecraft/util/Session/field_148257_b
 FD: bcm/c net/minecraft/util/Session/field_148258_c
 FD: bcm/d net/minecraft/util/Session/field_152429_d
-FD: bco$5/a net/minecraft/client/renderer/color/BlockColors$5/field_186721_a
+FD: bco$5/a net/minecraft/client/renderer/color/BlockColors$2/field_186721_a
 FD: bco/a net/minecraft/client/renderer/color/BlockColors/field_186725_a
 FD: bcr$7/a net/minecraft/client/renderer/color/ItemColors$7/field_186727_a
 FD: bcr/a net/minecraft/client/renderer/color/ItemColors/field_186732_a
@@ -10794,16 +10794,16 @@ FD: kh/e net/minecraft/network/datasync/EntityDataManager/field_187236_e
 FD: kh/f net/minecraft/network/datasync/EntityDataManager/field_187237_f
 FD: kk/a net/minecraft/util/ResourceLocation/field_110626_a
 FD: kk/b net/minecraft/util/ResourceLocation/field_110625_b
-FD: kn$10/b net/minecraft/init/Bootstrap$10/field_179241_b
-FD: kn$16$1/b net/minecraft/init/Bootstrap$16$1/field_185022_b
-FD: kn$16$1/c net/minecraft/init/Bootstrap$16$1/field_185023_c
-FD: kn$17$1/b net/minecraft/init/Bootstrap$17$1/field_185024_b
-FD: kn$17$1/c net/minecraft/init/Bootstrap$17$1/field_185025_c
-FD: kn$4/b net/minecraft/init/Bootstrap$4/field_150841_b
-FD: kn$5/b net/minecraft/init/Bootstrap$5/field_150840_b
-FD: kn$6/b net/minecraft/init/Bootstrap$6/field_150839_b
-FD: kn$7/b net/minecraft/init/Bootstrap$7/field_150838_b
-FD: kn$9/b net/minecraft/init/Bootstrap$9/field_179240_b
+FD: kn$10/b net/minecraft/init/Bootstrap$18/field_179241_b
+FD: kn$16$1/b net/minecraft/init/Bootstrap$7$1/field_185022_b
+FD: kn$16$1/c net/minecraft/init/Bootstrap$7$1/field_185023_c
+FD: kn$17$1/b net/minecraft/init/Bootstrap$8$1/field_185024_b
+FD: kn$17$1/c net/minecraft/init/Bootstrap$8$1/field_185025_c
+FD: kn$4/b net/minecraft/init/Bootstrap$12/field_150841_b
+FD: kn$5/b net/minecraft/init/Bootstrap$13/field_150840_b
+FD: kn$6/b net/minecraft/init/Bootstrap$14/field_150839_b
+FD: kn$7/b net/minecraft/init/Bootstrap$15/field_150838_b
+FD: kn$9/b net/minecraft/init/Bootstrap$17/field_179240_b
 FD: kn$a/b net/minecraft/init/Bootstrap$BehaviorDispenseBoat/field_185026_b
 FD: kn$a/c net/minecraft/init/Bootstrap$BehaviorDispenseBoat/field_185027_c
 FD: kn/a net/minecraft/init/Bootstrap/field_179872_a
@@ -11895,29 +11895,29 @@ FD: ny/d net/minecraft/util/ClassInheritanceMultiMap/field_180217_c
 FD: ny/e net/minecraft/util/ClassInheritanceMultiMap/field_181745_e
 FD: o$1/a net/minecraft/command/EntitySelector$1/field_179615_a
 FD: o$1/b net/minecraft/command/EntitySelector$1/field_179614_b
-FD: o$10/a net/minecraft/command/EntitySelector$10/field_184950_a
-FD: o$10/b net/minecraft/command/EntitySelector$10/field_179604_a
-FD: o$11/a net/minecraft/command/EntitySelector$11/field_179602_a
-FD: o$11/b net/minecraft/command/EntitySelector$11/field_179601_b
-FD: o$12/a net/minecraft/command/EntitySelector$12/field_184933_a
-FD: o$12/b net/minecraft/command/EntitySelector$12/field_184934_b
-FD: o$13/a net/minecraft/command/EntitySelector$13/field_184935_a
-FD: o$13/b net/minecraft/command/EntitySelector$13/field_184936_b
-FD: o$13/c net/minecraft/command/EntitySelector$13/field_184937_c
-FD: o$13/d net/minecraft/command/EntitySelector$13/field_184938_d
-FD: o$13/e net/minecraft/command/EntitySelector$13/field_184939_e
-FD: o$2/a net/minecraft/command/EntitySelector$2/field_184940_a
-FD: o$2/b net/minecraft/command/EntitySelector$2/field_184941_b
-FD: o$3/a net/minecraft/command/EntitySelector$3/field_184942_a
-FD: o$3/b net/minecraft/command/EntitySelector$3/field_184943_b
-FD: o$4/a net/minecraft/command/EntitySelector$4/field_184945_a
-FD: o$5/a net/minecraft/command/EntitySelector$5/field_184947_a
-FD: o$7/a net/minecraft/command/EntitySelector$7/field_179627_a
-FD: o$7/b net/minecraft/command/EntitySelector$7/field_179626_b
-FD: o$8/a net/minecraft/command/EntitySelector$8/field_184948_a
-FD: o$8/b net/minecraft/command/EntitySelector$8/field_184949_b
-FD: o$9/a net/minecraft/command/EntitySelector$9/field_179623_a
-FD: o$9/b net/minecraft/command/EntitySelector$9/field_179622_b
+FD: o$10/a net/minecraft/command/EntitySelector$6/field_184950_a
+FD: o$10/b net/minecraft/command/EntitySelector$6/field_179604_a
+FD: o$11/a net/minecraft/command/EntitySelector$7/field_179602_a
+FD: o$11/b net/minecraft/command/EntitySelector$7/field_179601_b
+FD: o$12/a net/minecraft/command/EntitySelector$8/field_184933_a
+FD: o$12/b net/minecraft/command/EntitySelector$8/field_184934_b
+FD: o$13/a net/minecraft/command/EntitySelector$9/field_184935_a
+FD: o$13/b net/minecraft/command/EntitySelector$9/field_184936_b
+FD: o$13/c net/minecraft/command/EntitySelector$9/field_184937_c
+FD: o$13/d net/minecraft/command/EntitySelector$9/field_184938_d
+FD: o$13/e net/minecraft/command/EntitySelector$9/field_184939_e
+FD: o$2/a net/minecraft/command/EntitySelector$10/field_184940_a
+FD: o$2/b net/minecraft/command/EntitySelector$10/field_184941_b
+FD: o$3/a net/minecraft/command/EntitySelector$11/field_184942_a
+FD: o$3/b net/minecraft/command/EntitySelector$11/field_184943_b
+FD: o$4/a net/minecraft/command/EntitySelector$12/field_184945_a
+FD: o$5/a net/minecraft/command/EntitySelector$13/field_184947_a
+FD: o$7/a net/minecraft/command/EntitySelector$3/field_179627_a
+FD: o$7/b net/minecraft/command/EntitySelector$3/field_179626_b
+FD: o$8/a net/minecraft/command/EntitySelector$4/field_184948_a
+FD: o$8/b net/minecraft/command/EntitySelector$4/field_184949_b
+FD: o$9/a net/minecraft/command/EntitySelector$5/field_179623_a
+FD: o$9/b net/minecraft/command/EntitySelector$5/field_179622_b
 FD: o/a net/minecraft/command/EntitySelector/field_82389_a
 FD: o/b net/minecraft/command/EntitySelector/field_82387_b
 FD: o/c net/minecraft/command/EntitySelector/field_82388_c
@@ -14077,18 +14077,18 @@ MD: aco$1/a (Lxs;)D net/minecraft/item/ItemCompass$1/func_185094_a (Lnet/minecra
 MD: acp/a (Ladq;Laht;Lzj;)Lff; net/minecraft/item/ItemMapBase/func_150911_c (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/network/Packet;
 MD: acp/f ()Z net/minecraft/item/ItemMapBase/func_77643_m_ ()Z
 MD: acq$1/e ()Lado; net/minecraft/creativetab/CreativeTabs$1/func_78016_d ()Lnet/minecraft/item/Item;
-MD: acq$10/e ()Lado; net/minecraft/creativetab/CreativeTabs$10/func_78016_d ()Lnet/minecraft/item/Item;
-MD: acq$11/e ()Lado; net/minecraft/creativetab/CreativeTabs$11/func_78016_d ()Lnet/minecraft/item/Item;
-MD: acq$12/e ()Lado; net/minecraft/creativetab/CreativeTabs$12/func_78016_d ()Lnet/minecraft/item/Item;
-MD: acq$2/e ()Lado; net/minecraft/creativetab/CreativeTabs$2/func_78016_d ()Lnet/minecraft/item/Item;
-MD: acq$3/e ()Lado; net/minecraft/creativetab/CreativeTabs$3/func_78016_d ()Lnet/minecraft/item/Item;
-MD: acq$4/e ()Lado; net/minecraft/creativetab/CreativeTabs$4/func_78016_d ()Lnet/minecraft/item/Item;
-MD: acq$5/e ()Lado; net/minecraft/creativetab/CreativeTabs$5/func_78016_d ()Lnet/minecraft/item/Item;
-MD: acq$5/f ()I net/minecraft/creativetab/CreativeTabs$5/func_151243_f ()I
-MD: acq$6/e ()Lado; net/minecraft/creativetab/CreativeTabs$6/func_78016_d ()Lnet/minecraft/item/Item;
-MD: acq$7/e ()Lado; net/minecraft/creativetab/CreativeTabs$7/func_78016_d ()Lnet/minecraft/item/Item;
-MD: acq$8/e ()Lado; net/minecraft/creativetab/CreativeTabs$8/func_78016_d ()Lnet/minecraft/item/Item;
-MD: acq$9/e ()Lado; net/minecraft/creativetab/CreativeTabs$9/func_78016_d ()Lnet/minecraft/item/Item;
+MD: acq$10/e ()Lado; net/minecraft/creativetab/CreativeTabs$7/func_78016_d ()Lnet/minecraft/item/Item;
+MD: acq$11/e ()Lado; net/minecraft/creativetab/CreativeTabs$8/func_78016_d ()Lnet/minecraft/item/Item;
+MD: acq$12/e ()Lado; net/minecraft/creativetab/CreativeTabs$9/func_78016_d ()Lnet/minecraft/item/Item;
+MD: acq$2/e ()Lado; net/minecraft/creativetab/CreativeTabs$10/func_78016_d ()Lnet/minecraft/item/Item;
+MD: acq$3/e ()Lado; net/minecraft/creativetab/CreativeTabs$11/func_78016_d ()Lnet/minecraft/item/Item;
+MD: acq$4/e ()Lado; net/minecraft/creativetab/CreativeTabs$12/func_78016_d ()Lnet/minecraft/item/Item;
+MD: acq$5/e ()Lado; net/minecraft/creativetab/CreativeTabs$2/func_78016_d ()Lnet/minecraft/item/Item;
+MD: acq$5/f ()I net/minecraft/creativetab/CreativeTabs$2/func_151243_f ()I
+MD: acq$6/e ()Lado; net/minecraft/creativetab/CreativeTabs$3/func_78016_d ()Lnet/minecraft/item/Item;
+MD: acq$7/e ()Lado; net/minecraft/creativetab/CreativeTabs$4/func_78016_d ()Lnet/minecraft/item/Item;
+MD: acq$8/e ()Lado; net/minecraft/creativetab/CreativeTabs$5/func_78016_d ()Lnet/minecraft/item/Item;
+MD: acq$9/e ()Lado; net/minecraft/creativetab/CreativeTabs$6/func_78016_d ()Lnet/minecraft/item/Item;
 MD: acq/a ()I net/minecraft/creativetab/CreativeTabs/func_78021_a ()I
 MD: acq/a (Lagn;)Z net/minecraft/creativetab/CreativeTabs/func_111226_a (Lnet/minecraft/enchantment/EnumEnchantmentType;)Z
 MD: acq/a (Ljava/lang/String;)Lacq; net/minecraft/creativetab/CreativeTabs/func_78025_a (Ljava/lang/String;)Lnet/minecraft/creativetab/CreativeTabs;
@@ -14222,26 +14222,26 @@ MD: adn/a (Ladq;Lzj;Laht;Lcj;Lqm;Lcq;FFF)Lqo; net/minecraft/item/ItemHoe/func_18
 MD: adn/a (Lrw;)Lcom/google/common/collect/Multimap; net/minecraft/item/ItemHoe/func_111205_h (Lnet/minecraft/inventory/EntityEquipmentSlot;)Lcom/google/common/collect/Multimap;
 MD: adn/g ()Ljava/lang/String; net/minecraft/item/ItemHoe/func_77842_f ()Ljava/lang/String;
 MD: ado$1/a (Ladq;Laht;Lsa;)F net/minecraft/item/Item$1/func_185085_a (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)F
-MD: ado$10/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$10/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$11/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$11/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$12/a (Ladq;Laht;Lsa;)F net/minecraft/item/Item$12/func_185085_a (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)F
-MD: ado$13/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$13/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$14/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$14/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$15/a (Ladq;Laht;Lsa;)F net/minecraft/item/Item$15/func_185085_a (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)F
-MD: ado$16/a (Ladq;Laht;Lsa;)F net/minecraft/item/Item$16/func_185085_a (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)F
-MD: ado$17/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$17/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$18/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$18/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$19/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$19/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$2/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$2/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$20/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$20/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$21/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$21/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$3/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$3/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$4/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$4/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$5/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$5/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$6/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$6/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$7/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$7/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$8/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$8/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
-MD: ado$9/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$9/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$10/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$18/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$11/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$19/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$12/a (Ladq;Laht;Lsa;)F net/minecraft/item/Item$2/func_185085_a (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)F
+MD: ado$13/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$20/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$14/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$21/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$15/a (Ladq;Laht;Lsa;)F net/minecraft/item/Item$3/func_185085_a (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)F
+MD: ado$16/a (Ladq;Laht;Lsa;)F net/minecraft/item/Item$4/func_185085_a (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)F
+MD: ado$17/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$5/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$18/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$6/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$19/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$7/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$2/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$10/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$20/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$8/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$21/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$9/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$3/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$11/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$4/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$12/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$5/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$13/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$6/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$14/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$7/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$15/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$8/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$16/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+MD: ado$9/a (Ladq;)Ljava/lang/String; net/minecraft/item/Item$17/apply (Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
 MD: ado$a/a ()I net/minecraft/item/Item$ToolMaterial/func_77997_a ()I
 MD: ado$a/b ()F net/minecraft/item/Item$ToolMaterial/func_77998_b ()F
 MD: ado$a/c ()F net/minecraft/item/Item$ToolMaterial/func_78000_c ()F
@@ -20017,19 +20017,19 @@ MD: bce/c (I)Ljava/nio/ByteBuffer; net/minecraft/client/renderer/GLAllocation/fu
 MD: bce/f (I)Ljava/nio/IntBuffer; net/minecraft/client/renderer/GLAllocation/func_74527_f (I)Ljava/nio/IntBuffer;
 MD: bce/h (I)Ljava/nio/FloatBuffer; net/minecraft/client/renderer/GLAllocation/func_74529_h (I)Ljava/nio/FloatBuffer;
 MD: bcf$1/a (Ljava/lang/String;)Ljava/lang/String; net/minecraft/client/Minecraft$1/func_74535_a (Ljava/lang/String;)Ljava/lang/String;
-MD: bcf$11/a ()Ljava/lang/String; net/minecraft/client/Minecraft$11/call ()Ljava/lang/String;
-MD: bcf$12/a ()Ljava/lang/String; net/minecraft/client/Minecraft$12/call ()Ljava/lang/String;
-MD: bcf$13/a ()Ljava/lang/String; net/minecraft/client/Minecraft$13/call ()Ljava/lang/String;
-MD: bcf$14/a ()Ljava/lang/String; net/minecraft/client/Minecraft$14/call ()Ljava/lang/String;
-MD: bcf$15/a ()Ljava/lang/String; net/minecraft/client/Minecraft$15/call ()Ljava/lang/String;
-MD: bcf$16/a ()Ljava/lang/String; net/minecraft/client/Minecraft$16/call ()Ljava/lang/String;
-MD: bcf$17/a ()Ljava/lang/String; net/minecraft/client/Minecraft$17/call ()Ljava/lang/String;
-MD: bcf$2/a ()Ljava/lang/String; net/minecraft/client/Minecraft$2/call ()Ljava/lang/String;
-MD: bcf$3/a ()Ljava/lang/String; net/minecraft/client/Minecraft$3/call ()Ljava/lang/String;
-MD: bcf$4/a ()Ljava/lang/String; net/minecraft/client/Minecraft$4/call ()Ljava/lang/String;
-MD: bcf$5/a ()Ljava/lang/String; net/minecraft/client/Minecraft$5/call ()Ljava/lang/String;
-MD: bcf$6/a ()Ljava/lang/String; net/minecraft/client/Minecraft$6/call ()Ljava/lang/String;
-MD: bcf$7/a ()Ljava/lang/String; net/minecraft/client/Minecraft$7/call ()Ljava/lang/String;
+MD: bcf$11/a ()Ljava/lang/String; net/minecraft/client/Minecraft$3/call ()Ljava/lang/String;
+MD: bcf$12/a ()Ljava/lang/String; net/minecraft/client/Minecraft$4/call ()Ljava/lang/String;
+MD: bcf$13/a ()Ljava/lang/String; net/minecraft/client/Minecraft$5/call ()Ljava/lang/String;
+MD: bcf$14/a ()Ljava/lang/String; net/minecraft/client/Minecraft$6/call ()Ljava/lang/String;
+MD: bcf$15/a ()Ljava/lang/String; net/minecraft/client/Minecraft$7/call ()Ljava/lang/String;
+MD: bcf$16/a ()Ljava/lang/String; net/minecraft/client/Minecraft$8/call ()Ljava/lang/String;
+MD: bcf$17/a ()Ljava/lang/String; net/minecraft/client/Minecraft$9/call ()Ljava/lang/String;
+MD: bcf$2/a ()Ljava/lang/String; net/minecraft/client/Minecraft$10/call ()Ljava/lang/String;
+MD: bcf$3/a ()Ljava/lang/String; net/minecraft/client/Minecraft$11/call ()Ljava/lang/String;
+MD: bcf$4/a ()Ljava/lang/String; net/minecraft/client/Minecraft$12/call ()Ljava/lang/String;
+MD: bcf$5/a ()Ljava/lang/String; net/minecraft/client/Minecraft$13/call ()Ljava/lang/String;
+MD: bcf$6/a ()Ljava/lang/String; net/minecraft/client/Minecraft$14/call ()Ljava/lang/String;
+MD: bcf$7/a ()Ljava/lang/String; net/minecraft/client/Minecraft$15/call ()Ljava/lang/String;
 MD: bcf/A ()Lcom/google/common/util/concurrent/ListenableFuture; net/minecraft/client/Minecraft/func_175603_A ()Lcom/google/common/util/concurrent/ListenableFuture;
 MD: bcf/B ()I net/minecraft/client/Minecraft/func_71369_N ()I
 MD: bcf/C ()Lbkx; net/minecraft/client/Minecraft/func_147104_D ()Lnet/minecraft/client/multiplayer/ServerData;
@@ -20196,17 +20196,17 @@ MD: bcm/d ()Ljava/lang/String; net/minecraft/util/Session/func_148254_d ()Ljava/
 MD: bcm/e ()Lcom/mojang/authlib/GameProfile; net/minecraft/util/Session/func_148256_e ()Lcom/mojang/authlib/GameProfile;
 MD: bcn/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/IBlockColor/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
 MD: bco$1/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$1/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
-MD: bco$10/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$10/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
-MD: bco$11/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$11/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
-MD: bco$12/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$12/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
-MD: bco$2/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$2/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
-MD: bco$3/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$3/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
-MD: bco$4/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$4/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
-MD: bco$5/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$5/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
-MD: bco$6/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$6/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
-MD: bco$7/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$7/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
-MD: bco$8/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$8/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
-MD: bco$9/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$9/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
+MD: bco$10/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$7/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
+MD: bco$11/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$8/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
+MD: bco$12/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$9/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
+MD: bco$2/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$10/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
+MD: bco$3/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$11/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
+MD: bco$4/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$12/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
+MD: bco$5/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$2/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
+MD: bco$6/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$3/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
+MD: bco$7/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$4/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
+MD: bco$8/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$5/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
+MD: bco$9/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors$6/func_186720_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
 MD: bco/a ()Lbco; net/minecraft/client/renderer/color/BlockColors/func_186723_a ()Lnet/minecraft/client/renderer/color/BlockColors;
 MD: bco/a (Larc;Lahx;Lcj;I)I net/minecraft/client/renderer/color/BlockColors/func_186724_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
 MD: bco/a (Lbcn;[Lajt;)V net/minecraft/client/renderer/color/BlockColors/func_186722_a (Lnet/minecraft/client/renderer/color/IBlockColor;[Lnet/minecraft/block/Block;)V
@@ -21080,7 +21080,7 @@ MD: bfr/a (Lbcz;)V net/minecraft/client/gui/GuiControls/func_146284_a (Lnet/mine
 MD: bfr/b ()V net/minecraft/client/gui/GuiControls/func_73866_w_ ()V
 MD: bfr/b (III)V net/minecraft/client/gui/GuiControls/func_146286_b (III)V
 MD: bfr/k ()V net/minecraft/client/gui/GuiControls/func_146274_d ()V
-MD: bft/a ()V net/minecraft/client/gui/inventory/GuiContainer/func_175378_g ()V
+MD: bft/a ()V net/minecraft/client/gui/inventory/GuiContainer/func_146980_g ()V
 MD: bft/a (CI)V net/minecraft/client/gui/inventory/GuiContainer/func_73869_a (CI)V
 MD: bft/a (FII)V net/minecraft/client/gui/inventory/GuiContainer/func_146976_a (FII)V
 MD: bft/a (IIF)V net/minecraft/client/gui/inventory/GuiContainer/func_73863_a (IIF)V
@@ -25897,66 +25897,66 @@ MD: kg$1/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerialize
 MD: kg$1/a (Lem;Ljava/lang/Byte;)V net/minecraft/network/datasync/DataSerializers$1/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Byte;)V
 MD: kg$1/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$1/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
 MD: kg$1/b (Lem;)Ljava/lang/Byte; net/minecraft/network/datasync/DataSerializers$1/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Byte;
-MD: kg$10/a (I)Lke; net/minecraft/network/datasync/DataSerializers$10/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
-MD: kg$10/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$10/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
-MD: kg$10/a (Lem;Lcom/google/common/base/Optional;)V net/minecraft/network/datasync/DataSerializers$10/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lcom/google/common/base/Optional;)V
-MD: kg$10/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$10/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
-MD: kg$10/b (Lem;)Lcom/google/common/base/Optional; net/minecraft/network/datasync/DataSerializers$10/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lcom/google/common/base/Optional;
-MD: kg$11/a (I)Lke; net/minecraft/network/datasync/DataSerializers$11/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
-MD: kg$11/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$11/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
-MD: kg$11/a (Lem;Lcom/google/common/base/Optional;)V net/minecraft/network/datasync/DataSerializers$11/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lcom/google/common/base/Optional;)V
-MD: kg$11/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$11/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
-MD: kg$11/b (Lem;)Lcom/google/common/base/Optional; net/minecraft/network/datasync/DataSerializers$11/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lcom/google/common/base/Optional;
-MD: kg$12/a (I)Lke; net/minecraft/network/datasync/DataSerializers$12/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
-MD: kg$12/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$12/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
-MD: kg$12/a (Lem;Ljava/lang/Boolean;)V net/minecraft/network/datasync/DataSerializers$12/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Boolean;)V
-MD: kg$12/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$12/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
-MD: kg$12/b (Lem;)Ljava/lang/Boolean; net/minecraft/network/datasync/DataSerializers$12/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Boolean;
-MD: kg$13/a (I)Lke; net/minecraft/network/datasync/DataSerializers$13/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
-MD: kg$13/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$13/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
-MD: kg$13/a (Lem;Ldc;)V net/minecraft/network/datasync/DataSerializers$13/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/util/math/Rotations;)V
-MD: kg$13/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$13/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
-MD: kg$13/b (Lem;)Ldc; net/minecraft/network/datasync/DataSerializers$13/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/util/math/Rotations;
-MD: kg$2/a (I)Lke; net/minecraft/network/datasync/DataSerializers$2/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
-MD: kg$2/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$2/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
-MD: kg$2/a (Lem;Lcj;)V net/minecraft/network/datasync/DataSerializers$2/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/util/math/BlockPos;)V
-MD: kg$2/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$2/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
-MD: kg$2/b (Lem;)Lcj; net/minecraft/network/datasync/DataSerializers$2/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/util/math/BlockPos;
-MD: kg$3/a (I)Lke; net/minecraft/network/datasync/DataSerializers$3/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
-MD: kg$3/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$3/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
-MD: kg$3/a (Lem;Lcom/google/common/base/Optional;)V net/minecraft/network/datasync/DataSerializers$3/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lcom/google/common/base/Optional;)V
-MD: kg$3/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$3/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
-MD: kg$3/b (Lem;)Lcom/google/common/base/Optional; net/minecraft/network/datasync/DataSerializers$3/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lcom/google/common/base/Optional;
-MD: kg$4/a (I)Lke; net/minecraft/network/datasync/DataSerializers$4/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
-MD: kg$4/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$4/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
-MD: kg$4/a (Lem;Lcq;)V net/minecraft/network/datasync/DataSerializers$4/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/util/EnumFacing;)V
-MD: kg$4/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$4/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
-MD: kg$4/b (Lem;)Lcq; net/minecraft/network/datasync/DataSerializers$4/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/util/EnumFacing;
-MD: kg$5/a (I)Lke; net/minecraft/network/datasync/DataSerializers$5/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
-MD: kg$5/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$5/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
-MD: kg$5/a (Lem;Lcom/google/common/base/Optional;)V net/minecraft/network/datasync/DataSerializers$5/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lcom/google/common/base/Optional;)V
-MD: kg$5/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$5/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
-MD: kg$5/b (Lem;)Lcom/google/common/base/Optional; net/minecraft/network/datasync/DataSerializers$5/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lcom/google/common/base/Optional;
-MD: kg$6/a (I)Lke; net/minecraft/network/datasync/DataSerializers$6/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
-MD: kg$6/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$6/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
-MD: kg$6/a (Lem;Ljava/lang/Integer;)V net/minecraft/network/datasync/DataSerializers$6/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Integer;)V
-MD: kg$6/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$6/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
-MD: kg$6/b (Lem;)Ljava/lang/Integer; net/minecraft/network/datasync/DataSerializers$6/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Integer;
-MD: kg$7/a (I)Lke; net/minecraft/network/datasync/DataSerializers$7/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
-MD: kg$7/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$7/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
-MD: kg$7/a (Lem;Ljava/lang/Float;)V net/minecraft/network/datasync/DataSerializers$7/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Float;)V
-MD: kg$7/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$7/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
-MD: kg$7/b (Lem;)Ljava/lang/Float; net/minecraft/network/datasync/DataSerializers$7/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Float;
-MD: kg$8/a (I)Lke; net/minecraft/network/datasync/DataSerializers$8/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
-MD: kg$8/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$8/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
-MD: kg$8/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$8/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
-MD: kg$8/a (Lem;Ljava/lang/String;)V net/minecraft/network/datasync/DataSerializers$8/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/String;)V
-MD: kg$8/b (Lem;)Ljava/lang/String; net/minecraft/network/datasync/DataSerializers$8/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/String;
-MD: kg$9/a (I)Lke; net/minecraft/network/datasync/DataSerializers$9/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
-MD: kg$9/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$9/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
-MD: kg$9/a (Lem;Leu;)V net/minecraft/network/datasync/DataSerializers$9/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/util/text/ITextComponent;)V
-MD: kg$9/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$9/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
-MD: kg$9/b (Lem;)Leu; net/minecraft/network/datasync/DataSerializers$9/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/util/text/ITextComponent;
+MD: kg$10/a (I)Lke; net/minecraft/network/datasync/DataSerializers$6/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
+MD: kg$10/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$6/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
+MD: kg$10/a (Lem;Lcom/google/common/base/Optional;)V net/minecraft/network/datasync/DataSerializers$6/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lcom/google/common/base/Optional;)V
+MD: kg$10/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$6/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
+MD: kg$10/b (Lem;)Lcom/google/common/base/Optional; net/minecraft/network/datasync/DataSerializers$6/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lcom/google/common/base/Optional;
+MD: kg$11/a (I)Lke; net/minecraft/network/datasync/DataSerializers$7/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
+MD: kg$11/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$7/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
+MD: kg$11/a (Lem;Lcom/google/common/base/Optional;)V net/minecraft/network/datasync/DataSerializers$7/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lcom/google/common/base/Optional;)V
+MD: kg$11/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$7/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
+MD: kg$11/b (Lem;)Lcom/google/common/base/Optional; net/minecraft/network/datasync/DataSerializers$7/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lcom/google/common/base/Optional;
+MD: kg$12/a (I)Lke; net/minecraft/network/datasync/DataSerializers$8/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
+MD: kg$12/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$8/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
+MD: kg$12/a (Lem;Ljava/lang/Boolean;)V net/minecraft/network/datasync/DataSerializers$8/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Boolean;)V
+MD: kg$12/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$8/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
+MD: kg$12/b (Lem;)Ljava/lang/Boolean; net/minecraft/network/datasync/DataSerializers$8/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Boolean;
+MD: kg$13/a (I)Lke; net/minecraft/network/datasync/DataSerializers$9/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
+MD: kg$13/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$9/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
+MD: kg$13/a (Lem;Ldc;)V net/minecraft/network/datasync/DataSerializers$9/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/util/math/Rotations;)V
+MD: kg$13/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$9/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
+MD: kg$13/b (Lem;)Ldc; net/minecraft/network/datasync/DataSerializers$9/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/util/math/Rotations;
+MD: kg$2/a (I)Lke; net/minecraft/network/datasync/DataSerializers$10/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
+MD: kg$2/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$10/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
+MD: kg$2/a (Lem;Lcj;)V net/minecraft/network/datasync/DataSerializers$10/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/util/math/BlockPos;)V
+MD: kg$2/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$10/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
+MD: kg$2/b (Lem;)Lcj; net/minecraft/network/datasync/DataSerializers$10/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/util/math/BlockPos;
+MD: kg$3/a (I)Lke; net/minecraft/network/datasync/DataSerializers$11/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
+MD: kg$3/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$11/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
+MD: kg$3/a (Lem;Lcom/google/common/base/Optional;)V net/minecraft/network/datasync/DataSerializers$11/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lcom/google/common/base/Optional;)V
+MD: kg$3/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$11/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
+MD: kg$3/b (Lem;)Lcom/google/common/base/Optional; net/minecraft/network/datasync/DataSerializers$11/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lcom/google/common/base/Optional;
+MD: kg$4/a (I)Lke; net/minecraft/network/datasync/DataSerializers$12/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
+MD: kg$4/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$12/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
+MD: kg$4/a (Lem;Lcq;)V net/minecraft/network/datasync/DataSerializers$12/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/util/EnumFacing;)V
+MD: kg$4/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$12/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
+MD: kg$4/b (Lem;)Lcq; net/minecraft/network/datasync/DataSerializers$12/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/util/EnumFacing;
+MD: kg$5/a (I)Lke; net/minecraft/network/datasync/DataSerializers$13/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
+MD: kg$5/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$13/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
+MD: kg$5/a (Lem;Lcom/google/common/base/Optional;)V net/minecraft/network/datasync/DataSerializers$13/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lcom/google/common/base/Optional;)V
+MD: kg$5/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$13/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
+MD: kg$5/b (Lem;)Lcom/google/common/base/Optional; net/minecraft/network/datasync/DataSerializers$13/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lcom/google/common/base/Optional;
+MD: kg$6/a (I)Lke; net/minecraft/network/datasync/DataSerializers$2/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
+MD: kg$6/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$2/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
+MD: kg$6/a (Lem;Ljava/lang/Integer;)V net/minecraft/network/datasync/DataSerializers$2/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Integer;)V
+MD: kg$6/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$2/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
+MD: kg$6/b (Lem;)Ljava/lang/Integer; net/minecraft/network/datasync/DataSerializers$2/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Integer;
+MD: kg$7/a (I)Lke; net/minecraft/network/datasync/DataSerializers$3/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
+MD: kg$7/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$3/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
+MD: kg$7/a (Lem;Ljava/lang/Float;)V net/minecraft/network/datasync/DataSerializers$3/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Float;)V
+MD: kg$7/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$3/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
+MD: kg$7/b (Lem;)Ljava/lang/Float; net/minecraft/network/datasync/DataSerializers$3/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Float;
+MD: kg$8/a (I)Lke; net/minecraft/network/datasync/DataSerializers$4/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
+MD: kg$8/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$4/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
+MD: kg$8/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$4/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
+MD: kg$8/a (Lem;Ljava/lang/String;)V net/minecraft/network/datasync/DataSerializers$4/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/String;)V
+MD: kg$8/b (Lem;)Ljava/lang/String; net/minecraft/network/datasync/DataSerializers$4/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/String;
+MD: kg$9/a (I)Lke; net/minecraft/network/datasync/DataSerializers$5/func_187161_a (I)Lnet/minecraft/network/datasync/DataParameter;
+MD: kg$9/a (Lem;)Ljava/lang/Object; net/minecraft/network/datasync/DataSerializers$5/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Ljava/lang/Object;
+MD: kg$9/a (Lem;Leu;)V net/minecraft/network/datasync/DataSerializers$5/func_187160_a (Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/util/text/ITextComponent;)V
+MD: kg$9/a (Lem;Ljava/lang/Object;)V net/minecraft/network/datasync/DataSerializers$5/func_187160_a (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Object;)V
+MD: kg$9/b (Lem;)Leu; net/minecraft/network/datasync/DataSerializers$5/func_187159_a (Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/util/text/ITextComponent;
 MD: kg/a (I)Lkf; net/minecraft/network/datasync/DataSerializers/func_187190_a (I)Lnet/minecraft/network/datasync/DataSerializer;
 MD: kg/a (Lkf;)V net/minecraft/network/datasync/DataSerializers/func_187189_a (Lnet/minecraft/network/datasync/DataSerializer;)V
 MD: kg/b (Lkf;)I net/minecraft/network/datasync/DataSerializers/func_187188_b (Lnet/minecraft/network/datasync/DataSerializer;)I
@@ -25993,37 +25993,37 @@ MD: km/a (Lck;)V net/minecraft/dispenser/BehaviorProjectileDispense/func_82485_a
 MD: km/b ()F net/minecraft/dispenser/BehaviorProjectileDispense/func_82500_b ()F
 MD: km/b (Lck;Ladq;)Ladq; net/minecraft/dispenser/BehaviorProjectileDispense/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
 MD: kn$1/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$1/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
-MD: kn$10/a (Lck;)V net/minecraft/init/Bootstrap$10/func_82485_a (Lnet/minecraft/dispenser/IBlockSource;)V
-MD: kn$10/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$10/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
-MD: kn$11/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$11/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
-MD: kn$12/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$12/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
-MD: kn$13/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$13/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
-MD: kn$14/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$14/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
-MD: kn$15/a ()F net/minecraft/init/Bootstrap$15/func_82498_a ()F
-MD: kn$15/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$15/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
-MD: kn$15/b ()F net/minecraft/init/Bootstrap$15/func_82500_b ()F
-MD: kn$16$1/a ()F net/minecraft/init/Bootstrap$16$1/func_82498_a ()F
-MD: kn$16$1/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$16$1/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
-MD: kn$16$1/b ()F net/minecraft/init/Bootstrap$16$1/func_82500_b ()F
-MD: kn$16/a (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$16/func_82482_a (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
-MD: kn$17$1/a ()F net/minecraft/init/Bootstrap$17$1/func_82498_a ()F
-MD: kn$17$1/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$17$1/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
-MD: kn$17$1/b ()F net/minecraft/init/Bootstrap$17$1/func_82500_b ()F
-MD: kn$17/a (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$17/func_82482_a (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
-MD: kn$18/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$18/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
-MD: kn$2/a (Lck;)V net/minecraft/init/Bootstrap$2/func_82485_a (Lnet/minecraft/dispenser/IBlockSource;)V
-MD: kn$2/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$2/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
-MD: kn$3/a (Lck;)V net/minecraft/init/Bootstrap$3/func_82485_a (Lnet/minecraft/dispenser/IBlockSource;)V
-MD: kn$3/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$3/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
-MD: kn$4/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$4/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
-MD: kn$5/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$5/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
-MD: kn$6/a (Lck;)V net/minecraft/init/Bootstrap$6/func_82485_a (Lnet/minecraft/dispenser/IBlockSource;)V
-MD: kn$6/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$6/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
-MD: kn$7/a (Lck;)V net/minecraft/init/Bootstrap$7/func_82485_a (Lnet/minecraft/dispenser/IBlockSource;)V
-MD: kn$7/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$7/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
-MD: kn$8/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$8/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
-MD: kn$9/a (Lck;)V net/minecraft/init/Bootstrap$9/func_82485_a (Lnet/minecraft/dispenser/IBlockSource;)V
-MD: kn$9/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$9/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
+MD: kn$10/a (Lck;)V net/minecraft/init/Bootstrap$18/func_82485_a (Lnet/minecraft/dispenser/IBlockSource;)V
+MD: kn$10/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$18/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
+MD: kn$11/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$2/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
+MD: kn$12/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$3/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
+MD: kn$13/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$4/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
+MD: kn$14/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$5/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
+MD: kn$15/a ()F net/minecraft/init/Bootstrap$6/func_82498_a ()F
+MD: kn$15/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$6/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
+MD: kn$15/b ()F net/minecraft/init/Bootstrap$6/func_82500_b ()F
+MD: kn$16$1/a ()F net/minecraft/init/Bootstrap$7$1/func_82498_a ()F
+MD: kn$16$1/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$7$1/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
+MD: kn$16$1/b ()F net/minecraft/init/Bootstrap$7$1/func_82500_b ()F
+MD: kn$16/a (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$7/func_82482_a (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
+MD: kn$17$1/a ()F net/minecraft/init/Bootstrap$8$1/func_82498_a ()F
+MD: kn$17$1/a (Laht;Lcz;Ladq;)Lzs; net/minecraft/init/Bootstrap$8$1/func_82499_a (Lnet/minecraft/world/World;Lnet/minecraft/dispenser/IPosition;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/IProjectile;
+MD: kn$17$1/b ()F net/minecraft/init/Bootstrap$8$1/func_82500_b ()F
+MD: kn$17/a (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$8/func_82482_a (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
+MD: kn$18/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$9/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
+MD: kn$2/a (Lck;)V net/minecraft/init/Bootstrap$10/func_82485_a (Lnet/minecraft/dispenser/IBlockSource;)V
+MD: kn$2/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$10/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
+MD: kn$3/a (Lck;)V net/minecraft/init/Bootstrap$11/func_82485_a (Lnet/minecraft/dispenser/IBlockSource;)V
+MD: kn$3/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$11/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
+MD: kn$4/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$12/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
+MD: kn$5/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$13/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
+MD: kn$6/a (Lck;)V net/minecraft/init/Bootstrap$14/func_82485_a (Lnet/minecraft/dispenser/IBlockSource;)V
+MD: kn$6/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$14/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
+MD: kn$7/a (Lck;)V net/minecraft/init/Bootstrap$15/func_82485_a (Lnet/minecraft/dispenser/IBlockSource;)V
+MD: kn$7/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$15/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
+MD: kn$8/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$16/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
+MD: kn$9/a (Lck;)V net/minecraft/init/Bootstrap$17/func_82485_a (Lnet/minecraft/dispenser/IBlockSource;)V
+MD: kn$9/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$17/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
 MD: kn$a/a (Lck;)V net/minecraft/init/Bootstrap$BehaviorDispenseBoat/func_82485_a (Lnet/minecraft/dispenser/IBlockSource;)V
 MD: kn$a/b (Lck;Ladq;)Ladq; net/minecraft/init/Bootstrap$BehaviorDispenseBoat/func_82487_b (Lnet/minecraft/dispenser/IBlockSource;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
 MD: kn/a ()Z net/minecraft/init/Bootstrap/func_179869_a ()Z
@@ -27049,18 +27049,18 @@ MD: ny/a (Lny;)Ljava/util/Map; net/minecraft/util/ClassInheritanceMultiMap/acces
 MD: ny/b (Ljava/lang/Class;)Ljava/lang/Class; net/minecraft/util/ClassInheritanceMultiMap/func_181157_b (Ljava/lang/Class;)Ljava/lang/Class;
 MD: ny/c (Ljava/lang/Class;)Ljava/lang/Iterable; net/minecraft/util/ClassInheritanceMultiMap/func_180215_b (Ljava/lang/Class;)Ljava/lang/Iterable;
 MD: o$1/a (Lrr;)Z net/minecraft/command/EntitySelector$1/apply (Lnet/minecraft/entity/Entity;)Z
-MD: o$10/a (Lrr;)Z net/minecraft/command/EntitySelector$10/apply (Lnet/minecraft/entity/Entity;)Z
-MD: o$11/a (Lrr;)Z net/minecraft/command/EntitySelector$11/apply (Lnet/minecraft/entity/Entity;)Z
-MD: o$12/a (Lrr;)Z net/minecraft/command/EntitySelector$12/apply (Lnet/minecraft/entity/Entity;)Z
-MD: o$13/a (Lrr;)Z net/minecraft/command/EntitySelector$13/apply (Lnet/minecraft/entity/Entity;)Z
-MD: o$2/a (Lrr;)Z net/minecraft/command/EntitySelector$2/apply (Lnet/minecraft/entity/Entity;)Z
-MD: o$3/a (Lrr;)Z net/minecraft/command/EntitySelector$3/apply (Lnet/minecraft/entity/Entity;)Z
-MD: o$4/a (Lrr;)Z net/minecraft/command/EntitySelector$4/apply (Lnet/minecraft/entity/Entity;)Z
-MD: o$5/a (Lrr;Lrr;)I net/minecraft/command/EntitySelector$5/compare (Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/Entity;)I
-MD: o$6/a (Lrr;)Z net/minecraft/command/EntitySelector$6/apply (Lnet/minecraft/entity/Entity;)Z
-MD: o$7/a (Lrr;)Z net/minecraft/command/EntitySelector$7/apply (Lnet/minecraft/entity/Entity;)Z
-MD: o$8/a (Lrr;)Z net/minecraft/command/EntitySelector$8/apply (Lnet/minecraft/entity/Entity;)Z
-MD: o$9/a (Lrr;)Z net/minecraft/command/EntitySelector$9/apply (Lnet/minecraft/entity/Entity;)Z
+MD: o$10/a (Lrr;)Z net/minecraft/command/EntitySelector$6/apply (Lnet/minecraft/entity/Entity;)Z
+MD: o$11/a (Lrr;)Z net/minecraft/command/EntitySelector$7/apply (Lnet/minecraft/entity/Entity;)Z
+MD: o$12/a (Lrr;)Z net/minecraft/command/EntitySelector$8/apply (Lnet/minecraft/entity/Entity;)Z
+MD: o$13/a (Lrr;)Z net/minecraft/command/EntitySelector$9/apply (Lnet/minecraft/entity/Entity;)Z
+MD: o$2/a (Lrr;)Z net/minecraft/command/EntitySelector$10/apply (Lnet/minecraft/entity/Entity;)Z
+MD: o$3/a (Lrr;)Z net/minecraft/command/EntitySelector$11/apply (Lnet/minecraft/entity/Entity;)Z
+MD: o$4/a (Lrr;)Z net/minecraft/command/EntitySelector$12/apply (Lnet/minecraft/entity/Entity;)Z
+MD: o$5/a (Lrr;Lrr;)I net/minecraft/command/EntitySelector$13/compare (Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/Entity;)I
+MD: o$6/a (Lrr;)Z net/minecraft/command/EntitySelector$2/apply (Lnet/minecraft/entity/Entity;)Z
+MD: o$7/a (Lrr;)Z net/minecraft/command/EntitySelector$3/apply (Lnet/minecraft/entity/Entity;)Z
+MD: o$8/a (Lrr;)Z net/minecraft/command/EntitySelector$4/apply (Lnet/minecraft/entity/Entity;)Z
+MD: o$9/a (Lrr;)Z net/minecraft/command/EntitySelector$5/apply (Lnet/minecraft/entity/Entity;)Z
 MD: o/a (Lcj;III)Lbbh; net/minecraft/command/EntitySelector/func_179661_a (Lnet/minecraft/util/math/BlockPos;III)Lnet/minecraft/util/math/AxisAlignedBB;
 MD: o/a (Ljava/lang/String;)Z net/minecraft/command/EntitySelector/func_82377_a (Ljava/lang/String;)Z
 MD: o/a (Ljava/util/List;Ljava/util/Map;Lm;Ljava/lang/Class;Ljava/lang/String;Lcj;)Ljava/util/List; net/minecraft/command/EntitySelector/func_179658_a (Ljava/util/List;Ljava/util/Map;Lnet/minecraft/command/ICommandSender;Ljava/lang/Class;Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;
