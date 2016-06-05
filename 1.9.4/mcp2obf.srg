@@ -12440,7 +12440,7 @@ FD: net/minecraft/world/biome/BiomeProvider/biomeCache aik/c
 FD: net/minecraft/world/biome/BiomeProvider/biomeIndexLayer aik/b
 FD: net/minecraft/world/biome/BiomeProvider/biomesToSpawnIn aik/d
 FD: net/minecraft/world/biome/BiomeProvider/genBiomes aik/a
-FD: net/minecraft/world/biome/BiomeProviderSingle/biomeGenerator aio/a
+FD: net/minecraft/world/biome/BiomeProviderSingle/biome aio/a
 FD: net/minecraft/world/biome/BiomeSavanna/SAVANNA_TREE aja/y
 FD: net/minecraft/world/biome/BiomeSnow/icePatch air/A
 FD: net/minecraft/world/biome/BiomeSnow/iceSpike air/z
@@ -28312,7 +28312,7 @@ MD: net/minecraft/world/BossInfoServer/setPercent (F)V lo/a (F)V
 MD: net/minecraft/world/BossInfoServer/setPlayEndBossMusic (Z)Lnet/minecraft/world/BossInfo; lo/b (Z)Lqe;
 MD: net/minecraft/world/BossInfoServer/setVisible (Z)V lo/d (Z)V
 MD: net/minecraft/world/ChunkCache/extendedLevelsInChunkCache ()Z aic/aa ()Z
-MD: net/minecraft/world/ChunkCache/getBiomeGenForCoords (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; aic/b (Lcl;)Laig;
+MD: net/minecraft/world/ChunkCache/getBiome (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; aic/b (Lcl;)Laig;
 MD: net/minecraft/world/ChunkCache/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState; aic/o (Lcl;)Lard;
 MD: net/minecraft/world/ChunkCache/getCombinedLight (Lnet/minecraft/util/math/BlockPos;I)I aic/b (Lcl;I)I
 MD: net/minecraft/world/ChunkCache/getLightFor (Lnet/minecraft/world/EnumSkyBlock;Lnet/minecraft/util/math/BlockPos;)I aic/b (Lahz;Lcl;)I
@@ -28361,7 +28361,7 @@ MD: net/minecraft/world/GameRules/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound
 MD: net/minecraft/world/GameRules/setOrCreateGameRule (Ljava/lang/String;Ljava/lang/String;)V ahr/a (Ljava/lang/String;Ljava/lang/String;)V
 MD: net/minecraft/world/GameRules/writeToNBT ()Lnet/minecraft/nbt/NBTTagCompound; ahr/a ()Ldq;
 MD: net/minecraft/world/IBlockAccess/extendedLevelsInChunkCache ()Z ahx/aa ()Z
-MD: net/minecraft/world/IBlockAccess/getBiomeGenForCoords (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; ahx/b (Lcl;)Laig;
+MD: net/minecraft/world/IBlockAccess/getBiome (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; ahx/b (Lcl;)Laig;
 MD: net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState; ahx/o (Lcl;)Lard;
 MD: net/minecraft/world/IBlockAccess/getCombinedLight (Lnet/minecraft/util/math/BlockPos;I)I ahx/b (Lcl;I)I
 MD: net/minecraft/world/IBlockAccess/getStrongPower (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I ahx/a (Lcl;Lcs;)I
@@ -28446,7 +28446,7 @@ MD: net/minecraft/world/World/extendedLevelsInChunkCache ()Z aht/aa ()Z
 MD: net/minecraft/world/World/extinguishFire (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z aht/a (Lzj;Lcl;Lcs;)Z
 MD: net/minecraft/world/World/findNearestEntityWithinAABB (Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lnet/minecraft/entity/Entity;)Lnet/minecraft/entity/Entity; aht/a (Ljava/lang/Class;Lbbf;Lrr;)Lrr;
 MD: net/minecraft/world/World/getActualHeight ()I aht/Z ()I
-MD: net/minecraft/world/World/getBiomeGenForCoords (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; aht/b (Lcl;)Laig;
+MD: net/minecraft/world/World/getBiome (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; aht/b (Lcl;)Laig;
 MD: net/minecraft/world/World/getBiomeProvider ()Lnet/minecraft/world/biome/BiomeProvider; aht/A ()Laik;
 MD: net/minecraft/world/World/getBlockDensity (Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/AxisAlignedBB;)F aht/a (Lbbh;Lbbf;)F
 MD: net/minecraft/world/World/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState; aht/o (Lcl;)Lard;
@@ -28867,7 +28867,7 @@ MD: net/minecraft/world/biome/Biome/isSnowyBiome ()Z aig/p ()Z
 MD: net/minecraft/world/biome/Biome/pickRandomFlower (Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/BlockFlower$EnumFlowerType; aig/a (Ljava/util/Random;Lcl;)Lalm$a;
 MD: net/minecraft/world/biome/Biome/registerBiome (ILjava/lang/String;Lnet/minecraft/world/biome/Biome;)V aig/a (ILjava/lang/String;Laig;)V
 MD: net/minecraft/world/biome/Biome/registerBiomes ()V aig/q ()V
-MD: net/minecraft/world/biome/BiomeCache$Block/getBiomeGenAt (II)Lnet/minecraft/world/biome/Biome; aih$a/a (II)Laig;
+MD: net/minecraft/world/biome/BiomeCache$Block/getBiome (II)Lnet/minecraft/world/biome/Biome; aih$a/a (II)Laig;
 MD: net/minecraft/world/biome/BiomeCache/access$000 (Lnet/minecraft/world/biome/BiomeCache;)Lnet/minecraft/world/biome/BiomeProvider; aih/a (Laih;)Laik;
 MD: net/minecraft/world/biome/BiomeCache/cleanupCache ()V aih/a ()V
 MD: net/minecraft/world/biome/BiomeCache/getBiome (IILnet/minecraft/world/biome/Biome;)Lnet/minecraft/world/biome/Biome; aih/a (IILaig;)Laig;
@@ -28919,19 +28919,19 @@ MD: net/minecraft/world/biome/BiomePlains/pickRandomFlower (Ljava/util/Random;Ln
 MD: net/minecraft/world/biome/BiomeProvider/areBiomesViable (IIILjava/util/List;)Z aik/a (IIILjava/util/List;)Z
 MD: net/minecraft/world/biome/BiomeProvider/cleanupCache ()V aik/b ()V
 MD: net/minecraft/world/biome/BiomeProvider/findBiomePosition (IIILjava/util/List;Ljava/util/Random;)Lnet/minecraft/util/math/BlockPos; aik/a (IIILjava/util/List;Ljava/util/Random;)Lcl;
-MD: net/minecraft/world/biome/BiomeProvider/getBiomeGenAt ([Lnet/minecraft/world/biome/Biome;IIIIZ)[Lnet/minecraft/world/biome/Biome; aik/a ([Laig;IIIIZ)[Laig;
-MD: net/minecraft/world/biome/BiomeProvider/getBiomeGenerator (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; aik/a (Lcl;)Laig;
-MD: net/minecraft/world/biome/BiomeProvider/getBiomeGenerator (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/biome/Biome;)Lnet/minecraft/world/biome/Biome; aik/a (Lcl;Laig;)Laig;
+MD: net/minecraft/world/biome/BiomeProvider/getBiome (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; aik/a (Lcl;)Laig;
+MD: net/minecraft/world/biome/BiomeProvider/getBiome (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/biome/Biome;)Lnet/minecraft/world/biome/Biome; aik/a (Lcl;Laig;)Laig;
+MD: net/minecraft/world/biome/BiomeProvider/getBiomes ([Lnet/minecraft/world/biome/Biome;IIII)[Lnet/minecraft/world/biome/Biome; aik/b ([Laig;IIII)[Laig;
+MD: net/minecraft/world/biome/BiomeProvider/getBiomes ([Lnet/minecraft/world/biome/Biome;IIIIZ)[Lnet/minecraft/world/biome/Biome; aik/a ([Laig;IIIIZ)[Laig;
 MD: net/minecraft/world/biome/BiomeProvider/getBiomesForGeneration ([Lnet/minecraft/world/biome/Biome;IIII)[Lnet/minecraft/world/biome/Biome; aik/a ([Laig;IIII)[Laig;
 MD: net/minecraft/world/biome/BiomeProvider/getBiomesToSpawnIn ()Ljava/util/List; aik/a ()Ljava/util/List;
 MD: net/minecraft/world/biome/BiomeProvider/getTemperatureAtHeight (FI)F aik/a (FI)F
-MD: net/minecraft/world/biome/BiomeProvider/loadBlockGeneratorData ([Lnet/minecraft/world/biome/Biome;IIII)[Lnet/minecraft/world/biome/Biome; aik/b ([Laig;IIII)[Laig;
 MD: net/minecraft/world/biome/BiomeProviderSingle/areBiomesViable (IIILjava/util/List;)Z aio/a (IIILjava/util/List;)Z
 MD: net/minecraft/world/biome/BiomeProviderSingle/findBiomePosition (IIILjava/util/List;Ljava/util/Random;)Lnet/minecraft/util/math/BlockPos; aio/a (IIILjava/util/List;Ljava/util/Random;)Lcl;
-MD: net/minecraft/world/biome/BiomeProviderSingle/getBiomeGenAt ([Lnet/minecraft/world/biome/Biome;IIIIZ)[Lnet/minecraft/world/biome/Biome; aio/a ([Laig;IIIIZ)[Laig;
-MD: net/minecraft/world/biome/BiomeProviderSingle/getBiomeGenerator (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; aio/a (Lcl;)Laig;
+MD: net/minecraft/world/biome/BiomeProviderSingle/getBiome (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; aio/a (Lcl;)Laig;
+MD: net/minecraft/world/biome/BiomeProviderSingle/getBiomes ([Lnet/minecraft/world/biome/Biome;IIII)[Lnet/minecraft/world/biome/Biome; aio/b ([Laig;IIII)[Laig;
+MD: net/minecraft/world/biome/BiomeProviderSingle/getBiomes ([Lnet/minecraft/world/biome/Biome;IIIIZ)[Lnet/minecraft/world/biome/Biome; aio/a ([Laig;IIIIZ)[Laig;
 MD: net/minecraft/world/biome/BiomeProviderSingle/getBiomesForGeneration ([Lnet/minecraft/world/biome/Biome;IIII)[Lnet/minecraft/world/biome/Biome; aio/a ([Laig;IIII)[Laig;
-MD: net/minecraft/world/biome/BiomeProviderSingle/loadBlockGeneratorData ([Lnet/minecraft/world/biome/Biome;IIII)[Lnet/minecraft/world/biome/Biome; aio/b ([Laig;IIII)[Laig;
 MD: net/minecraft/world/biome/BiomeSavanna/decorate (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)V aja/a (Laht;Ljava/util/Random;Lcl;)V
 MD: net/minecraft/world/biome/BiomeSavanna/genBigTreeChance (Ljava/util/Random;)Lnet/minecraft/world/gen/feature/WorldGenAbstractTree; aja/a (Ljava/util/Random;)Latp;
 MD: net/minecraft/world/biome/BiomeSavanna/getBiomeClass ()Ljava/lang/Class; aja/g ()Ljava/lang/Class;

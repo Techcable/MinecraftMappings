@@ -11088,7 +11088,7 @@ FD: net/minecraft/world/biome/BiomeProvider/biomeCache net/minecraft/server/Worl
 FD: net/minecraft/world/biome/BiomeProvider/biomeIndexLayer net/minecraft/server/WorldChunkManager/b
 FD: net/minecraft/world/biome/BiomeProvider/biomesToSpawnIn net/minecraft/server/WorldChunkManager/d
 FD: net/minecraft/world/biome/BiomeProvider/genBiomes net/minecraft/server/WorldChunkManager/a
-FD: net/minecraft/world/biome/BiomeProviderSingle/biomeGenerator net/minecraft/server/WorldChunkManagerHell/a
+FD: net/minecraft/world/biome/BiomeProviderSingle/biome net/minecraft/server/WorldChunkManagerHell/a
 FD: net/minecraft/world/biome/BiomeSavanna/SAVANNA_TREE net/minecraft/server/BiomeSavanna/y
 FD: net/minecraft/world/biome/BiomeSnow/icePatch net/minecraft/server/BiomeIcePlains/A
 FD: net/minecraft/world/biome/BiomeSnow/iceSpike net/minecraft/server/BiomeIcePlains/z
@@ -26658,7 +26658,7 @@ MD: net/minecraft/world/BossInfoServer/setOverlay (Lnet/minecraft/world/BossInfo
 MD: net/minecraft/world/BossInfoServer/setPercent (F)V net/minecraft/server/BossBattleServer/setProgress (F)V
 MD: net/minecraft/world/BossInfoServer/setPlayEndBossMusic (Z)Lnet/minecraft/world/BossInfo; net/minecraft/server/BossBattleServer/setPlayMusic (Z)Lnet/minecraft/server/BossBattle;
 MD: net/minecraft/world/ChunkCache/extendedLevelsInChunkCache ()Z net/minecraft/server/ChunkCache/aa ()Z
-MD: net/minecraft/world/ChunkCache/getBiomeGenForCoords (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; net/minecraft/server/ChunkCache/b (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/BiomeBase;
+MD: net/minecraft/world/ChunkCache/getBiome (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; net/minecraft/server/ChunkCache/b (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/BiomeBase;
 MD: net/minecraft/world/ChunkCache/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState; net/minecraft/server/ChunkCache/o (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/IBlockData;
 MD: net/minecraft/world/ChunkCache/getCombinedLight (Lnet/minecraft/util/math/BlockPos;I)I net/minecraft/server/ChunkCache/b (Lnet/minecraft/server/BlockPosition;I)I
 MD: net/minecraft/world/ChunkCache/getLightFor (Lnet/minecraft/world/EnumSkyBlock;Lnet/minecraft/util/math/BlockPos;)I net/minecraft/server/ChunkCache/b (Lnet/minecraft/server/EnumSkyBlock;Lnet/minecraft/server/BlockPosition;)I
@@ -26706,7 +26706,7 @@ MD: net/minecraft/world/GameRules/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound
 MD: net/minecraft/world/GameRules/setOrCreateGameRule (Ljava/lang/String;Ljava/lang/String;)V net/minecraft/server/GameRules/set (Ljava/lang/String;Ljava/lang/String;)V
 MD: net/minecraft/world/GameRules/writeToNBT ()Lnet/minecraft/nbt/NBTTagCompound; net/minecraft/server/GameRules/a ()Lnet/minecraft/server/NBTTagCompound;
 MD: net/minecraft/world/IBlockAccess/extendedLevelsInChunkCache ()Z net/minecraft/server/IBlockAccess/aa ()Z
-MD: net/minecraft/world/IBlockAccess/getBiomeGenForCoords (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; net/minecraft/server/IBlockAccess/b (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/BiomeBase;
+MD: net/minecraft/world/IBlockAccess/getBiome (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; net/minecraft/server/IBlockAccess/b (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/BiomeBase;
 MD: net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState; net/minecraft/server/IBlockAccess/getType (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/IBlockData;
 MD: net/minecraft/world/IBlockAccess/getCombinedLight (Lnet/minecraft/util/math/BlockPos;I)I net/minecraft/server/IBlockAccess/b (Lnet/minecraft/server/BlockPosition;I)I
 MD: net/minecraft/world/IBlockAccess/getStrongPower (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I net/minecraft/server/IBlockAccess/getBlockPower (Lnet/minecraft/server/BlockPosition;Lnet/minecraft/server/EnumDirection;)I
@@ -26787,7 +26787,6 @@ MD: net/minecraft/world/World/extendedLevelsInChunkCache ()Z net/minecraft/serve
 MD: net/minecraft/world/World/extinguishFire (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z net/minecraft/server/World/douseFire (Lnet/minecraft/server/EntityHuman;Lnet/minecraft/server/BlockPosition;Lnet/minecraft/server/EnumDirection;)Z
 MD: net/minecraft/world/World/findNearestEntityWithinAABB (Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lnet/minecraft/entity/Entity;)Lnet/minecraft/entity/Entity; net/minecraft/server/World/a (Ljava/lang/Class;Lnet/minecraft/server/AxisAlignedBB;Lnet/minecraft/server/Entity;)Lnet/minecraft/server/Entity;
 MD: net/minecraft/world/World/getActualHeight ()I net/minecraft/server/World/Z ()I
-MD: net/minecraft/world/World/getBiomeGenForCoords (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; net/minecraft/server/World/getBiome (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/BiomeBase;
 MD: net/minecraft/world/World/getBiomeProvider ()Lnet/minecraft/world/biome/BiomeProvider; net/minecraft/server/World/getWorldChunkManager ()Lnet/minecraft/server/WorldChunkManager;
 MD: net/minecraft/world/World/getBlockDensity (Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/AxisAlignedBB;)F net/minecraft/server/World/a (Lnet/minecraft/server/Vec3D;Lnet/minecraft/server/AxisAlignedBB;)F
 MD: net/minecraft/world/World/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState; net/minecraft/server/World/o (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/IBlockData;
@@ -27192,7 +27191,7 @@ MD: net/minecraft/world/biome/Biome/isSnowyBiome ()Z net/minecraft/server/BiomeB
 MD: net/minecraft/world/biome/Biome/pickRandomFlower (Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/BlockFlower$EnumFlowerType; net/minecraft/server/BiomeBase/a (Ljava/util/Random;Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/BlockFlowers$EnumFlowerVarient;
 MD: net/minecraft/world/biome/Biome/registerBiome (ILjava/lang/String;Lnet/minecraft/world/biome/Biome;)V net/minecraft/server/BiomeBase/a (ILjava/lang/String;Lnet/minecraft/server/BiomeBase;)V
 MD: net/minecraft/world/biome/Biome/registerBiomes ()V net/minecraft/server/BiomeBase/q ()V
-MD: net/minecraft/world/biome/BiomeCache$Block/getBiomeGenAt (II)Lnet/minecraft/world/biome/Biome; aih$a/a (II)Lnet/minecraft/server/BiomeBase;
+MD: net/minecraft/world/biome/BiomeCache$Block/getBiome (II)Lnet/minecraft/world/biome/Biome; aih$a/a (II)Lnet/minecraft/server/BiomeBase;
 MD: net/minecraft/world/biome/BiomeCache/access$000 (Lnet/minecraft/world/biome/BiomeCache;)Lnet/minecraft/world/biome/BiomeProvider; net/minecraft/server/BiomeCache/a (Lnet/minecraft/server/BiomeCache;)Lnet/minecraft/server/WorldChunkManager;
 MD: net/minecraft/world/biome/BiomeCache/cleanupCache ()V net/minecraft/server/BiomeCache/a ()V
 MD: net/minecraft/world/biome/BiomeCache/getBiome (IILnet/minecraft/world/biome/Biome;)Lnet/minecraft/world/biome/Biome; net/minecraft/server/BiomeCache/a (IILnet/minecraft/server/BiomeBase;)Lnet/minecraft/server/BiomeBase;
@@ -27246,19 +27245,17 @@ MD: net/minecraft/world/biome/BiomeProvider/areBiomesViable (IIILjava/util/List;
 MD: net/minecraft/world/biome/BiomeProvider/b ([LBiomeBase;IIII)[LBiomeBase; net/minecraft/server/WorldChunkManager/getBiomeBlock ([LBiomeBase;IIII)[LBiomeBase;
 MD: net/minecraft/world/biome/BiomeProvider/cleanupCache ()V net/minecraft/server/WorldChunkManager/b ()V
 MD: net/minecraft/world/biome/BiomeProvider/findBiomePosition (IIILjava/util/List;Ljava/util/Random;)Lnet/minecraft/util/math/BlockPos; net/minecraft/server/WorldChunkManager/a (IIILjava/util/List;Ljava/util/Random;)Lnet/minecraft/server/BlockPosition;
-MD: net/minecraft/world/biome/BiomeProvider/getBiomeGenAt ([Lnet/minecraft/world/biome/Biome;IIIIZ)[Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManager/a ([Laig;IIIIZ)[Laig;
-MD: net/minecraft/world/biome/BiomeProvider/getBiomeGenerator (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManager/getBiome (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/BiomeBase;
-MD: net/minecraft/world/biome/BiomeProvider/getBiomeGenerator (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/biome/Biome;)Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManager/getBiome (Lnet/minecraft/server/BlockPosition;Lnet/minecraft/server/BiomeBase;)Lnet/minecraft/server/BiomeBase;
+MD: net/minecraft/world/biome/BiomeProvider/getBiomes ([Lnet/minecraft/world/biome/Biome;IIII)[Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManager/b ([Laig;IIII)[Laig;
+MD: net/minecraft/world/biome/BiomeProvider/getBiomes ([Lnet/minecraft/world/biome/Biome;IIIIZ)[Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManager/a ([Laig;IIIIZ)[Laig;
 MD: net/minecraft/world/biome/BiomeProvider/getBiomesForGeneration ([Lnet/minecraft/world/biome/Biome;IIII)[Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManager/a ([Laig;IIII)[Laig;
 MD: net/minecraft/world/biome/BiomeProvider/getBiomesToSpawnIn ()Ljava/util/List; net/minecraft/server/WorldChunkManager/a ()Ljava/util/List;
 MD: net/minecraft/world/biome/BiomeProvider/getTemperatureAtHeight (FI)F net/minecraft/server/WorldChunkManager/a (FI)F
-MD: net/minecraft/world/biome/BiomeProvider/loadBlockGeneratorData ([Lnet/minecraft/world/biome/Biome;IIII)[Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManager/b ([Laig;IIII)[Laig;
 MD: net/minecraft/world/biome/BiomeProviderSingle/areBiomesViable (IIILjava/util/List;)Z net/minecraft/server/WorldChunkManagerHell/a (IIILjava/util/List;)Z
 MD: net/minecraft/world/biome/BiomeProviderSingle/findBiomePosition (IIILjava/util/List;Ljava/util/Random;)Lnet/minecraft/util/math/BlockPos; net/minecraft/server/WorldChunkManagerHell/a (IIILjava/util/List;Ljava/util/Random;)Lnet/minecraft/server/BlockPosition;
-MD: net/minecraft/world/biome/BiomeProviderSingle/getBiomeGenAt ([Lnet/minecraft/world/biome/Biome;IIIIZ)[Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManagerHell/a ([Laig;IIIIZ)[Laig;
-MD: net/minecraft/world/biome/BiomeProviderSingle/getBiomeGenerator (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManagerHell/a (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/BiomeBase;
+MD: net/minecraft/world/biome/BiomeProviderSingle/getBiome (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManagerHell/a (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/BiomeBase;
+MD: net/minecraft/world/biome/BiomeProviderSingle/getBiomes ([Lnet/minecraft/world/biome/Biome;IIII)[Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManagerHell/b ([Laig;IIII)[Laig;
+MD: net/minecraft/world/biome/BiomeProviderSingle/getBiomes ([Lnet/minecraft/world/biome/Biome;IIIIZ)[Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManagerHell/a ([Laig;IIIIZ)[Laig;
 MD: net/minecraft/world/biome/BiomeProviderSingle/getBiomesForGeneration ([Lnet/minecraft/world/biome/Biome;IIII)[Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManagerHell/a ([Laig;IIII)[Laig;
-MD: net/minecraft/world/biome/BiomeProviderSingle/loadBlockGeneratorData ([Lnet/minecraft/world/biome/Biome;IIII)[Lnet/minecraft/world/biome/Biome; net/minecraft/server/WorldChunkManagerHell/b ([Laig;IIII)[Laig;
 MD: net/minecraft/world/biome/BiomeSavanna/decorate (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)V net/minecraft/server/BiomeSavanna/a (Lnet/minecraft/server/World;Ljava/util/Random;Lnet/minecraft/server/BlockPosition;)V
 MD: net/minecraft/world/biome/BiomeSavanna/genBigTreeChance (Ljava/util/Random;)Lnet/minecraft/world/gen/feature/WorldGenAbstractTree; net/minecraft/server/BiomeSavanna/a (Ljava/util/Random;)Lnet/minecraft/server/WorldGenTreeAbstract;
 MD: net/minecraft/world/biome/BiomeSavanna/getBiomeClass ()Ljava/lang/Class; net/minecraft/server/BiomeSavanna/g ()Ljava/lang/Class;
