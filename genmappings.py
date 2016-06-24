@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import sys
-from os import path
 from argparse import ArgumentParser
 from typing import Dict
 from urllib.error import HTTPError
@@ -15,6 +14,7 @@ import srg.parser
 from srg.output import serialize_srg
 from srg.mappings import RenamingMappings, ChainedMappings, AbstractMappings, ImmutableMappings
 import spigot
+
 
 def strip_duplicates(mappings: AbstractMappings) -> ImmutableMappings:
     classes = dict()  # type: Dict[Type, Type]
@@ -32,13 +32,24 @@ def strip_duplicates(mappings: AbstractMappings) -> ImmutableMappings:
     return ImmutableMappings(classes, fields, methods)
 
 
-def download_mcp_mappings(srg_mappings, version, mappings_version):
-    mappings_channel = mappings_version[:mappings_version.rindex('_')]
-    mappings_id = mappings_version[mappings_version.rindex('_') + 1:]
+def download_mcp_mappings(srg_mappings, mappings_version):
+    mappings_versions = load_json_url("http://export.mcpbot.bspk.rs/versions.json")  # type: Dict[str, Dict[str, intr]]
+    mappings_channel = mappings_version[:mappings_version.index('_')]
+    nodoc = "_nodoc_" in mappings_version
+    mappings_id = int(mappings_version[mappings_version.rindex('_') + 1:])
+    minecraft_version = None
+    for version, byChannel in mappings_versions.items():
+        if mappings_channel not in byChannel:
+            print("Unknown channel", mappings_channel, "for version", version, file=sys.stderr)
+            exit(1)
+        if mappings_id in byChannel[mappings_channel]:
+            print("Mappings id", mappings_id, "found for version", version)
+            minecraft_version = version
+            break
     field_names = dict()
     method_names = dict()
     try:
-        with open_zip_url('http://export.mcpbot.bspk.rs/mcp_{1}/{2}-{0}/mcp_{1}-{2}-{0}.zip'.format(version, mappings_channel, mappings_id)) as zip:
+        with open_zip_url('http://export.mcpbot.bspk.rs/mcp_{1}/{2}-{0}/mcp_{1}-{2}-{0}.zip'.format(minecraft_version, mappings_channel + "_nodoc" if nodoc else mappings_channel, mappings_id)) as zip:
             with TextIOWrapper(zip.open('fields.csv', 'rU')) as fields_file:
                 for row in DictReader(fields_file):
                     original = row['searge']
@@ -100,7 +111,7 @@ def write_mapping(mappings: AbstractMappings, file_name: str):
 srg_mappings = download_srg_mappings(args.version)
 mcp_mappings = None
 if srg_mappings is not None:
-    mcp_mappings = download_mcp_mappings(srg_mappings, args.version, args.mappings_version)
+    mcp_mappings = download_mcp_mappings(srg_mappings, args.mappings_version)
     if mcp_mappings is None:
         print("MCP mappings not found for mappings version", args.mappings_version, "and minecraft version", args.version, file=sys.stderr)
         exit(1)
