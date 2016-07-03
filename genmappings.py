@@ -86,7 +86,7 @@ parser = ArgumentParser(description="Generate as as many mappings as possible fo
 parser.add_argument('version', help='The version to generate')
 parser.add_argument('mappings_version', help='The mcpbot mappings version')
 
-AVAILABLE_VERSIONS = ('1.8', '1.8.8', '1.9', '1.9.4', '1.10')
+AVAILABLE_VERSIONS = ('1.8', '1.8.8', '1.9', '1.9.4', '1.10', '1.10.2')
 
 # We have to use 'parse_known_args', or the intellij debuger explodes
 args = parser.parse_known_args()[0]

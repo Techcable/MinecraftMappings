@@ -9,6 +9,7 @@ Automatically generated minecraft mappings, using [SrgLib](https://github.com/Pr
 - 1.9.4: snapshot_nodoc_20160604
 - 1.10: snapshot_nodoc_20160624
   - These mappings are actually intended for 1.9.4, since MCPBot hasn't updated yet
+- 1.10.2: snapshot_nodoc_20160703
 
 ## License:
 - The scripts are my property and are released under the MIT (Expat) license
