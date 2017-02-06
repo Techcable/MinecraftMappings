@@ -3518,12 +3518,12 @@ MD: adt/a (Ladm;II)Lcj; net/minecraft/server/SpawnerCreature/getRandomPosition (
 MD: ady/a (ILady;)Lady; net/minecraft/server/BiomeBase/getBiome (ILnet/minecraft/server/BiomeBase;)Lnet/minecraft/server/BiomeBase;
 MD: ady/a (Lpt;)Ljava/util/List; net/minecraft/server/BiomeBase/getMobs (Lnet/minecraft/server/EnumCreatureType;)Ljava/util/List;
 MD: ady/e (I)Lady; net/minecraft/server/BiomeBase/getBiome (I)Lnet/minecraft/server/BiomeBase;
-MD: ady/n ()[LBiomeBase; net/minecraft/server/BiomeBase/getBiomes ()[LBiomeBase;
+MD: ady/n ()[Lady; net/minecraft/server/BiomeBase/getBiomes ()[Lnet/minecraft/server/BiomeBase;
 MD: aec/a (Lcj;)Lady; net/minecraft/server/WorldChunkManager/getBiome (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/BiomeBase;
 MD: aec/a (Lcj;Lady;)Lady; net/minecraft/server/WorldChunkManager/getBiome (Lnet/minecraft/server/BlockPosition;Lnet/minecraft/server/BiomeBase;)Lnet/minecraft/server/BiomeBase;
 MD: aec/a ([FIIII)[F net/minecraft/server/WorldChunkManager/getWetness ([FIIII)[F
-MD: aec/a ([LBiomeBase;IIII)[LBiomeBase; net/minecraft/server/WorldChunkManager/getBiomes ([LBiomeBase;IIII)[LBiomeBase;
-MD: aec/b ([LBiomeBase;IIII)[LBiomeBase; net/minecraft/server/WorldChunkManager/getBiomeBlock ([LBiomeBase;IIII)[LBiomeBase;
+MD: aec/a ([Lady;IIII)[Lady; net/minecraft/server/WorldChunkManager/getBiomes ([Lnet/minecraft/server/BiomeBase;IIII)[Lnet/minecraft/server/BiomeBase;
+MD: aec/b ([Lady;IIII)[Lady; net/minecraft/server/WorldChunkManager/getBiomeBlock ([Lnet/minecraft/server/BiomeBase;IIII)[Lnet/minecraft/server/BiomeBase;
 MD: afd/a (Lcj;)Laug; net/minecraft/server/BlockPressurePlateAbstract/getBoundingBox (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/AxisAlignedBB;
 MD: afh$b/a ()Ljava/lang/String; net/minecraft/server/Block$StepSound/getBreakSound ()Ljava/lang/String;
 MD: afh$b/b ()Ljava/lang/String; net/minecraft/server/Block$StepSound/getPlaceSound ()Ljava/lang/String;
@@ -3671,12 +3671,12 @@ MD: amy/d ()V net/minecraft/server/Chunk/removeEntities ()V
 MD: amy/f ()Z net/minecraft/server/Chunk/isEmpty ()Z
 MD: amy/f (III)Lafh; net/minecraft/server/Chunk/getType (III)Lnet/minecraft/server/Block;
 MD: amy/g (Lcj;)Lalz; net/minecraft/server/Chunk/getBlockData (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/IBlockData;
-MD: amy/h ()[LChunkSection; net/minecraft/server/Chunk/getSections ()[LChunkSection;
+MD: amy/h ()[Lamz; net/minecraft/server/Chunk/getSections ()[Lnet/minecraft/server/ChunkSection;
 MD: amy/i ()Z net/minecraft/server/Chunk/isReady ()Z
 MD: amy/k ()[B net/minecraft/server/Chunk/getBiomeIndex ()[B
 MD: amy/p ()Ladm; net/minecraft/server/Chunk/getWorld ()Lnet/minecraft/server/World;
 MD: amy/r ()Ljava/util/Map; net/minecraft/server/Chunk/getTileEntities ()Ljava/util/Map;
-MD: amy/s ()[LEntitySlice; net/minecraft/server/Chunk/getEntitySlices ()[LEntitySlice;
+MD: amy/s ()[Lne; net/minecraft/server/Chunk/getEntitySlices ()[Lnet/minecraft/server/EntitySlice;
 MD: amy/t ()Z net/minecraft/server/Chunk/isDone ()Z
 MD: amz/a (III)Lalz; net/minecraft/server/ChunkSection/getType (III)Lnet/minecraft/server/IBlockData;
 MD: amz/a (IIILalz;)V net/minecraft/server/ChunkSection/setType (IIILnet/minecraft/server/IBlockData;)V
@@ -4039,7 +4039,7 @@ MD: lx/a (Llf;IZ)Llf; net/minecraft/server/PlayerList/moveToWorld (Lnet/minecraf
 MD: lx/a (Lpk;ILle;Lle;)V net/minecraft/server/PlayerList/changeWorld (Lnet/minecraft/server/Entity;ILnet/minecraft/server/WorldServer;Lnet/minecraft/server/WorldServer;)V
 MD: lx/a (Lwn;DDDDILff;)V net/minecraft/server/PlayerList/sendPacketNearby (Lnet/minecraft/server/EntityHuman;DDDDILnet/minecraft/server/Packet;)V
 MD: lx/a (Z)V net/minecraft/server/PlayerList/setHasWhitelist (Z)V
-MD: lx/a ([LWorldServer;)V net/minecraft/server/PlayerList/setPlayerFileData ([LWorldServer;)V
+MD: lx/a ([Lle;)V net/minecraft/server/PlayerList/setPlayerFileData ([Lnet/minecraft/server/WorldServer;)V
 MD: lx/b (Lcom/mojang/authlib/GameProfile;)V net/minecraft/server/PlayerList/removeOp (Lcom/mojang/authlib/GameProfile;)V
 MD: lx/b (Llf;)V net/minecraft/server/PlayerList/savePlayerFile (Lnet/minecraft/server/EntityPlayer;)V
 MD: lx/c ()Lnet/minecraft/server/MinecraftServer; net/minecraft/server/PlayerList/getServer ()Lnet/minecraft/server/MinecraftServer;
@@ -4251,7 +4251,7 @@ MD: pk/aS ()F net/minecraft/server/Entity/getHeadHeight ()F
 MD: pk/aV ()Ldn; net/minecraft/server/Entity/getNBTTag ()Lnet/minecraft/server/NBTTagCompound;
 MD: pk/ai ()Z net/minecraft/server/Entity/isAlive ()Z
 MD: pk/aj ()Z net/minecraft/server/Entity/inBlock ()Z
-MD: pk/as ()[LItemStack; net/minecraft/server/Entity/getEquipment ()[LItemStack;
+MD: pk/as ()[Lzx; net/minecraft/server/Entity/getEquipment ()[Lnet/minecraft/server/ItemStack;
 MD: pk/at ()Z net/minecraft/server/Entity/isBurning ()Z
 MD: pk/av ()Z net/minecraft/server/Entity/isSneaking ()Z
 MD: pk/aw ()Z net/minecraft/server/Entity/isSprinting ()Z
@@ -4286,7 +4286,7 @@ MD: pr/a (Lpk;I)V net/minecraft/server/EntityLiving/receive (Lnet/minecraft/serv
 MD: pr/a (Lqb;)Lqc; net/minecraft/server/EntityLiving/getAttributeInstance (Lnet/minecraft/server/IAttribute;)Lnet/minecraft/server/AttributeInstance;
 MD: pr/a (ZI)V net/minecraft/server/EntityLiving/dropEquipment (ZI)V
 MD: pr/aX ()V net/minecraft/server/EntityLiving/initAttributes ()V
-MD: pr/as ()[LItemStack; net/minecraft/server/EntityLiving/getEquipment ()[LItemStack;
+MD: pr/as ()[Lzx; net/minecraft/server/EntityLiving/getEquipment ()[Lnet/minecraft/server/ItemStack;
 MD: pr/b (Low;F)F net/minecraft/server/EntityLiving/applyArmorModifier (Lnet/minecraft/server/DamageSource;F)F
 MD: pr/b (Lpe;)Lpf; net/minecraft/server/EntityLiving/getEffect (Lnet/minecraft/server/MobEffectList;)Lnet/minecraft/server/MobEffect;
 MD: pr/b (Lwn;)I net/minecraft/server/EntityLiving/getExpValue (Lnet/minecraft/server/EntityHuman;)I

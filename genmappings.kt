@@ -187,7 +187,7 @@ fun downloadMcpMappings(srgMappings: Mappings, mappingsVersion: String): Mapping
 }
 
 fun downloadSrgMappings(minecraftVersion: String): Mappings {
-    val cacheFile = File("cache/mcp_joined.srg")
+    val cacheFile = File("cache/mcp-${minecraftVersion}-joined.srg")
     if (!cacheFile.exists()) {
         cacheFile.parentFile.mkdirs()
         try {
@@ -245,6 +245,12 @@ fun getBuildDataCommit(spigotVersion: String): String {
     }
 }
 
+/**
+ * Syntax errors in the srg files that SpecialSource swallows silently
+ */
+val brokenLines = setOf("IDispenseBehavior a(LISourceBlock;LItemStack;)LItemStack; dispense")
+fun stripBrokenLines(lines: List<String>) = lines.filter { it !in brokenLines && "<init>" !in it }
+
 fun downloadSpigotMappings(buildDataCommit: String): Mappings {
     val baseUrl = "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/builddata/browse/"
     val cacheDir = File("cache/spigot_$buildDataCommit")
@@ -299,8 +305,8 @@ fun downloadSpigotMappings(buildDataCommit: String): Mappings {
             }
         }
     }
-    val classMappings = MappingsFormat.COMPACT_SEARGE_FORMAT.parseFile(classMappingsFile)
-    val memberMappings = MappingsFormat.COMPACT_SEARGE_FORMAT.parseFile(memberMappingsFile)
+    val classMappings = MappingsFormat.COMPACT_SEARGE_FORMAT.parseLines(stripBrokenLines(classMappingsFile.readLines()))
+    val memberMappings = MappingsFormat.COMPACT_SEARGE_FORMAT.parseLines(stripBrokenLines(memberMappingsFile.readLines()))
     val packages = JsonReader(packageMappingsFile.reader()).use {
         val builder = ImmutableMap.builder<String, String>()
         it.beginObject()

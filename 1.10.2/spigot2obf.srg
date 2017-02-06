@@ -3632,8 +3632,8 @@ MD: net/minecraft/server/Chunk/getBiome (Lnet/minecraft/server/BlockPosition;Lne
 MD: net/minecraft/server/Chunk/getBiomeIndex ()[B asv/l ()[B
 MD: net/minecraft/server/Chunk/getBlockData (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/IBlockData; asv/a (Lcm;)Lars;
 MD: net/minecraft/server/Chunk/getBrightness (Lnet/minecraft/server/EnumSkyBlock;Lnet/minecraft/server/BlockPosition;)I asv/a (Laij;Lcm;)I
-MD: net/minecraft/server/Chunk/getEntitySlices ()[LEntitySlice; asv/t ()[LEntitySlice;
-MD: net/minecraft/server/Chunk/getSections ()[LChunkSection; asv/h ()[LChunkSection;
+MD: net/minecraft/server/Chunk/getEntitySlices ()[Lnet/minecraft/server/EntitySlice; asv/t ()[Lob;
+MD: net/minecraft/server/Chunk/getSections ()[Lnet/minecraft/server/ChunkSection; asv/h ()[Lasw;
 MD: net/minecraft/server/Chunk/getTileEntities ()Ljava/util/Map; asv/s ()Ljava/util/Map;
 MD: net/minecraft/server/Chunk/getWorld ()Lnet/minecraft/server/World; asv/q ()Laid;
 MD: net/minecraft/server/Chunk/initLighting ()V asv/b ()V
@@ -4490,7 +4490,7 @@ MD: net/minecraft/server/PlayerList/sendMessage (Lnet/minecraft/server/IChatBase
 MD: net/minecraft/server/PlayerList/sendPacketNearby (Lnet/minecraft/server/EntityHuman;DDDDILnet/minecraft/server/Packet;)V mp/a (Lzs;DDDDILfj;)V
 MD: net/minecraft/server/PlayerList/sendScoreboard (Lnet/minecraft/server/ScoreboardServer;Lnet/minecraft/server/EntityPlayer;)V mp/a (Lkz;Llu;)V
 MD: net/minecraft/server/PlayerList/setHasWhitelist (Z)V mp/a (Z)V
-MD: net/minecraft/server/PlayerList/setPlayerFileData ([LWorldServer;)V mp/a ([LWorldServer;)V
+MD: net/minecraft/server/PlayerList/setPlayerFileData ([Lnet/minecraft/server/WorldServer;)V mp/a ([Lls;)V
 MD: net/minecraft/server/PlayerList/tick ()V mp/e ()V
 MD: net/minecraft/server/PlayerList/updateClient (Lnet/minecraft/server/EntityPlayer;)V mp/g (Llu;)V
 MD: net/minecraft/server/PlayerSelector/getEntity (Lnet/minecraft/server/ICommandListener;Ljava/lang/String;Ljava/lang/Class;)Lnet/minecraft/server/Entity; p/a (Ln;Ljava/lang/String;Ljava/lang/Class;)Lrw;
@@ -4734,8 +4734,8 @@ MD: net/minecraft/server/WorldBorder/setWarningTime (I)V asm/b (I)V
 MD: net/minecraft/server/WorldBorder/transitionSizeBetween (DDJ)V asm/a (DDJ)V
 MD: net/minecraft/server/WorldChunkManager/getBiome (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/BiomeBase; aiu/a (Lcm;)Laiq;
 MD: net/minecraft/server/WorldChunkManager/getBiome (Lnet/minecraft/server/BlockPosition;Lnet/minecraft/server/BiomeBase;)Lnet/minecraft/server/BiomeBase; aiu/a (Lcm;Laiq;)Laiq;
-MD: net/minecraft/server/WorldChunkManager/getBiomeBlock ([LBiomeBase;IIII)[LBiomeBase; aiu/b ([LBiomeBase;IIII)[LBiomeBase;
-MD: net/minecraft/server/WorldChunkManager/getBiomes ([LBiomeBase;IIII)[LBiomeBase; aiu/a ([LBiomeBase;IIII)[LBiomeBase;
+MD: net/minecraft/server/WorldChunkManager/getBiomeBlock ([Lnet/minecraft/server/BiomeBase;IIII)[Lnet/minecraft/server/BiomeBase; aiu/b ([Laiq;IIII)[Laiq;
+MD: net/minecraft/server/WorldChunkManager/getBiomes ([Lnet/minecraft/server/BiomeBase;IIII)[Lnet/minecraft/server/BiomeBase; aiu/a ([Laiq;IIII)[Laiq;
 MD: net/minecraft/server/WorldData/getDayTime ()J baa/f ()J
 MD: net/minecraft/server/WorldData/getDifficulty ()Lnet/minecraft/server/EnumDifficulty; baa/x ()Lqp;
 MD: net/minecraft/server/WorldData/getGameType ()Lnet/minecraft/server/EnumGamemode; baa/q ()Laib;

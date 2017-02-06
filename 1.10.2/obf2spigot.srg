@@ -3717,8 +3717,8 @@ MD: aiq/k ()F net/minecraft/server/BiomeBase/getHumidity ()F
 MD: aiq/n ()F net/minecraft/server/BiomeBase/getTemperature ()F
 MD: aiu/a (Lcm;)Laiq; net/minecraft/server/WorldChunkManager/getBiome (Lnet/minecraft/server/BlockPosition;)Lnet/minecraft/server/BiomeBase;
 MD: aiu/a (Lcm;Laiq;)Laiq; net/minecraft/server/WorldChunkManager/getBiome (Lnet/minecraft/server/BlockPosition;Lnet/minecraft/server/BiomeBase;)Lnet/minecraft/server/BiomeBase;
-MD: aiu/a ([LBiomeBase;IIII)[LBiomeBase; net/minecraft/server/WorldChunkManager/getBiomes ([LBiomeBase;IIII)[LBiomeBase;
-MD: aiu/b ([LBiomeBase;IIII)[LBiomeBase; net/minecraft/server/WorldChunkManager/getBiomeBlock ([LBiomeBase;IIII)[LBiomeBase;
+MD: aiu/a ([Laiq;IIII)[Laiq; net/minecraft/server/WorldChunkManager/getBiomes ([Lnet/minecraft/server/BiomeBase;IIII)[Lnet/minecraft/server/BiomeBase;
+MD: aiu/b ([Laiq;IIII)[Laiq; net/minecraft/server/WorldChunkManager/getBiomeBlock ([Lnet/minecraft/server/BiomeBase;IIII)[Lnet/minecraft/server/BiomeBase;
 MD: aka/i (Lars;)I net/minecraft/server/BlockPressurePlateAbstract/getPower (Lnet/minecraft/server/IBlockData;)I
 MD: akf/a (I)Lars; net/minecraft/server/Block/fromLegacyData (I)Lnet/minecraft/server/IBlockData;
 MD: akf/a (ILjava/util/Random;)I net/minecraft/server/Block/getDropCount (ILjava/util/Random;)I
@@ -3865,12 +3865,12 @@ MD: asv/b (J)V net/minecraft/server/Chunk/setLastSaved (J)V
 MD: asv/c ()V net/minecraft/server/Chunk/addEntities ()V
 MD: asv/d ()V net/minecraft/server/Chunk/removeEntities ()V
 MD: asv/f ()Z net/minecraft/server/Chunk/isEmpty ()Z
-MD: asv/h ()[LChunkSection; net/minecraft/server/Chunk/getSections ()[LChunkSection;
+MD: asv/h ()[Lasw; net/minecraft/server/Chunk/getSections ()[Lnet/minecraft/server/ChunkSection;
 MD: asv/i ()Z net/minecraft/server/Chunk/isReady ()Z
 MD: asv/l ()[B net/minecraft/server/Chunk/getBiomeIndex ()[B
 MD: asv/q ()Laid; net/minecraft/server/Chunk/getWorld ()Lnet/minecraft/server/World;
 MD: asv/s ()Ljava/util/Map; net/minecraft/server/Chunk/getTileEntities ()Ljava/util/Map;
-MD: asv/t ()[LEntitySlice; net/minecraft/server/Chunk/getEntitySlices ()[LEntitySlice;
+MD: asv/t ()[Lob; net/minecraft/server/Chunk/getEntitySlices ()[Lnet/minecraft/server/EntitySlice;
 MD: asv/u ()Z net/minecraft/server/Chunk/isDone ()Z
 MD: asw/a (III)Lars; net/minecraft/server/ChunkSection/getType (III)Lnet/minecraft/server/IBlockData;
 MD: asw/a (IIILars;)V net/minecraft/server/ChunkSection/setType (IIILnet/minecraft/server/IBlockData;)V
@@ -4267,7 +4267,7 @@ MD: mp/a (Llu;IZ)Llu; net/minecraft/server/PlayerList/moveToWorld (Lnet/minecraf
 MD: mp/a (Lrw;ILls;Lls;)V net/minecraft/server/PlayerList/changeWorld (Lnet/minecraft/server/Entity;ILnet/minecraft/server/WorldServer;Lnet/minecraft/server/WorldServer;)V
 MD: mp/a (Lzs;DDDDILfj;)V net/minecraft/server/PlayerList/sendPacketNearby (Lnet/minecraft/server/EntityHuman;DDDDILnet/minecraft/server/Packet;)V
 MD: mp/a (Z)V net/minecraft/server/PlayerList/setHasWhitelist (Z)V
-MD: mp/a ([LWorldServer;)V net/minecraft/server/PlayerList/setPlayerFileData ([LWorldServer;)V
+MD: mp/a ([Lls;)V net/minecraft/server/PlayerList/setPlayerFileData ([Lnet/minecraft/server/WorldServer;)V
 MD: mp/b (Lcom/mojang/authlib/GameProfile;)V net/minecraft/server/PlayerList/removeOp (Lcom/mojang/authlib/GameProfile;)V
 MD: mp/b (Llu;)V net/minecraft/server/PlayerList/savePlayerFile (Lnet/minecraft/server/EntityPlayer;)V
 MD: mp/c ()Lnet/minecraft/server/MinecraftServer; net/minecraft/server/PlayerList/getServer ()Lnet/minecraft/server/MinecraftServer;
