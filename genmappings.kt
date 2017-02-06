@@ -248,7 +248,7 @@ fun getBuildDataCommit(spigotVersion: String): String {
 /**
  * Syntax errors in the srg files that SpecialSource swallows silently
  */
-val brokenLines = setOf("IDispenseBehavior a(LISourceBlock;LItemStack;)LItemStack; dispense")
+val brokenLines = setOf("IDispenseBehavior a(LISourceBlock;LItemStack;)LItemStack; dispense", "nv ServerStatisticManager#")
 fun stripBrokenLines(lines: List<String>) = lines.filter { it !in brokenLines && "<init>" !in it }
 
 fun downloadSpigotMappings(buildDataCommit: String): Mappings {
@@ -320,7 +320,7 @@ fun downloadSpigotMappings(buildDataCommit: String): Mappings {
 }
 
 const val USAGE = "Usage: ./genmappings.sh <minecraft version> [mcp version]"
-val AVAILABLE_VERSIONS = setOf("1.8", "1.8.8", "1.9", "1.9.4", "1.10", "1.10.2")
+val AVAILABLE_VERSIONS = setOf("1.8", "1.8.8", "1.9", "1.9.4", "1.10", "1.10.2", "1.11")
 
 fun main(args: Array<String>) {
     if ("--help" in args) {
