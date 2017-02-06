@@ -1,4 +1,6 @@
-*.jar
+lib/*.jar
+bin
+cache
 
 # IntelliJ
 .idea
@@ -6,3 +8,6 @@
 
 # Python
 __pycache__
+
+# Atom
+.atom_jvm_classpath
